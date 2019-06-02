@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2019-03-13T18:25:54Z" name="Default suite" finished-at="2019-03-13T18:25:54Z" duration-ms="51">
+    <groups>
+    </groups>
+    <test started-at="2019-03-13T18:25:54Z" name="Default test" finished-at="2019-03-13T18:25:54Z" duration-ms="51">
+      <class name="Testngpack1.testngclass2">
+        <test-method is-config="true" signature="InitializeSelenium()[pri:0, instance:Testngpack1.testngclass2@ba2f4ec]" started-at="2019-03-13T18:25:54Z" name="InitializeSelenium" finished-at="2019-03-13T18:25:54Z" duration-ms="18" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InitializeSelenium -->
+        <test-method is-config="true" signature="intitaldeclaration()[pri:0, instance:Testngpack1.testngclass2@ba2f4ec]" started-at="2019-03-13T18:25:54Z" name="intitaldeclaration" finished-at="2019-03-13T18:25:54Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intitaldeclaration -->
+        <test-method is-config="true" signature="openbrowser1()[pri:0, instance:Testngpack1.testngclass2@ba2f4ec]" started-at="2019-03-13T18:25:54Z" name="openbrowser1" finished-at="2019-03-13T18:25:54Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openbrowser1 -->
+        <test-method signature="testlogin()[pri:0, instance:Testngpack1.testngclass2@ba2f4ec]" started-at="2019-03-13T18:25:54Z" name="testlogin" finished-at="2019-03-13T18:25:54Z" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testlogin -->
+        <test-method is-config="true" signature="openbrowser2()[pri:0, instance:Testngpack1.testngclass2@ba2f4ec]" started-at="2019-03-13T18:25:54Z" name="openbrowser2" finished-at="2019-03-13T18:25:54Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openbrowser2 -->
+        <test-method is-config="true" signature="closebrowser1()[pri:0, instance:Testngpack1.testngclass2@ba2f4ec]" started-at="2019-03-13T18:25:54Z" name="closebrowser1" finished-at="2019-03-13T18:25:54Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser1 -->
+        <test-method is-config="true" signature="closebrowser2()[pri:0, instance:Testngpack1.testngclass2@ba2f4ec]" started-at="2019-03-13T18:25:54Z" name="closebrowser2" finished-at="2019-03-13T18:25:54Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser2 -->
+        <test-method is-config="true" signature="openbrowser1()[pri:0, instance:Testngpack1.testngclass2@ba2f4ec]" started-at="2019-03-13T18:25:54Z" name="openbrowser1" finished-at="2019-03-13T18:25:54Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openbrowser1 -->
+        <test-method is-config="true" signature="openbrowser2()[pri:0, instance:Testngpack1.testngclass2@ba2f4ec]" started-at="2019-03-13T18:25:54Z" name="openbrowser2" finished-at="2019-03-13T18:25:54Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openbrowser2 -->
+        <test-method signature="testlogout()[pri:0, instance:Testngpack1.testngclass2@ba2f4ec]" started-at="2019-03-13T18:25:54Z" name="testlogout" finished-at="2019-03-13T18:25:54Z" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testlogout -->
+        <test-method is-config="true" signature="closebrowser1()[pri:0, instance:Testngpack1.testngclass2@ba2f4ec]" started-at="2019-03-13T18:25:54Z" name="closebrowser1" finished-at="2019-03-13T18:25:54Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser1 -->
+        <test-method is-config="true" signature="closebrowser2()[pri:0, instance:Testngpack1.testngclass2@ba2f4ec]" started-at="2019-03-13T18:25:54Z" name="closebrowser2" finished-at="2019-03-13T18:25:54Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser2 -->
+        <test-method is-config="true" signature="closeDBconnection()[pri:0, instance:Testngpack1.testngclass2@ba2f4ec]" started-at="2019-03-13T18:25:54Z" name="closeDBconnection" finished-at="2019-03-13T18:25:54Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDBconnection -->
+        <test-method is-config="true" signature="CloseSelenium()[pri:0, instance:Testngpack1.testngclass2@ba2f4ec]" started-at="2019-03-13T18:25:54Z" name="CloseSelenium" finished-at="2019-03-13T18:25:54Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseSelenium -->
+      </class> <!-- Testngpack1.testngclass2 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
