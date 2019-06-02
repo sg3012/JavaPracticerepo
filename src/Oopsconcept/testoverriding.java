@@ -10,7 +10,7 @@ public class testoverriding {
 		                            class object and overriding has been implemented*/
 		o1.Numbertracking();     /* child class Object reference pointing to the child class Object has access to : 
 		                        -- All child functions that are defined in the child class itself. 
-	                            -- Overridden function from the parent class 
+	                            -- Overriding function from the parent class 
 	                            -- All parent class functions that are defined in the parent class itself (apart from Overridden functions). 
 	                                 */
        o1.sendSMS();
@@ -35,8 +35,6 @@ public class testoverriding {
                                   ----> all the non-overridden methods of base class 
                                   ----> cannot call the  methods which are newly declared in the child class and   
                                         Overridden methods of the parent class. */ 
-
-     o3.accessspecifiertest2();
      o3.calling();
      o3.redial();
      o3.sendSMS();
