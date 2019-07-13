@@ -97,7 +97,7 @@ public class Linkedlistsimple {
 			System.out.print(l1.get(j) +"  ");	
 			j++; 
 		} 
-
+ 
 	}
 	
    
