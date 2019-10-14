@@ -11,6 +11,8 @@ public class Automatedropdownchrome {
 		// TODO Auto-generated method stub
     System.setProperty("webdriver.chrome.driver","D:\\Automation\\ChromeDriver-77.0\\chromedriver.exe");
     WebDriver launchchrome = new ChromeDriver();
+    launchchrome.manage().window().maximize();
+    launchchrome.manage().deleteAllCookies();
     launchchrome.get("https://www.facebook.com");
     //1. Handling drop-down using "id" locator. 
     Select obj1 = new Select(launchchrome.findElement(By.id("month")));

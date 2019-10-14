@@ -14,8 +14,10 @@ public class Launchfirefox {
 		FirefoxOptions options = new FirefoxOptions()
 				.setLogLevel(Level.OFF);
 		WebDriver launchfirefox = new FirefoxDriver(options);
+		launchfirefox.manage().window().maximize();
+		launchfirefox.manage().deleteAllCookies();
 		launchfirefox.get("https://www.google.com");
-		
+		launchfirefox.quit();
 		
 	}
 

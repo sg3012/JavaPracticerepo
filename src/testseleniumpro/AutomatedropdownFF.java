@@ -9,6 +9,8 @@ public class AutomatedropdownFF {
 		// TODO Auto-generated method stub
 	System.setProperty("webdriver.gecko.driver","D:\\Automation\\geckdriver-0.25.0\\geckodriver.exe");
 	WebDriver launchfirefox = new FirefoxDriver();
+	 launchfirefox.manage().window().maximize();
+	 launchfirefox.manage().deleteAllCookies();
 	launchfirefox.get("https://www.facebook.com");
 	
       //1. Handling drop-down using "id" locator. 

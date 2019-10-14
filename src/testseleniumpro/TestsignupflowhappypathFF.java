@@ -8,6 +8,8 @@ public class TestsignupflowhappypathFF {
 		// TODO Auto-generated method stub
 		System.setProperty("webdriver.gecko.driver","D:\\Automation\\geckodriver-0.25.0\\geckodriver.exe");
 		WebDriver launchfirefox = new FirefoxDriver();
+		launchfirefox.manage().window().maximize();
+		launchfirefox.manage().deleteAllCookies();
 		launchfirefox.get("https://www.incommail.com/"); 
 		Thread.sleep(2000);
 		launchfirefox.findElement(By.linkText("Sign Up")).click();

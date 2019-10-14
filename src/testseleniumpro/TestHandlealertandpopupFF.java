@@ -9,6 +9,8 @@ public class TestHandlealertandpopupFF {
 		// TODO Auto-generated method stub
     System.setProperty("webdriver.gecko.driver","D:\\Automation\\geckodriver-0.25.0\\geckodriver.exe");
     WebDriver launchfirefox = new FirefoxDriver();
+    launchfirefox.manage().window().maximize();
+	launchfirefox.manage().deleteAllCookies();
     launchfirefox.get("https://mail.rediff.com/cgi-bin/login.cgi");
     Thread.sleep(2000);
     launchfirefox.findElement(By.name("proceed")).click();

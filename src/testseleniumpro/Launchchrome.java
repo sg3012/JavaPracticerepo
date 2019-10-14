@@ -7,6 +7,8 @@ public class Launchchrome {
 		// TODO Auto-generated method stub
 		System.setProperty("webdriver.chrome.driver","D:\\Automation\\ChromeDriver-76.0\\chromedriver.exe");
 		WebDriver launchchrome = new ChromeDriver();
+		launchchrome.manage().window().maximize();
+		launchchrome.manage().deleteAllCookies();
 		launchchrome.get("https://www.google.com");
 		String t = launchchrome.getTitle(); // get the current page title
 		System.out.println("Title: "+t); // print the current page title

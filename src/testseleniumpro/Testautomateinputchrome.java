@@ -10,6 +10,8 @@ public class Testautomateinputchrome {
 
  System.setProperty("webdriver.chrome.driver","D:\\Automation\\ChromeDriver-77.0\\chromedriver.exe");
  WebDriver launchchrome = new ChromeDriver();
+ launchchrome.manage().window().maximize();
+ launchchrome.manage().deleteAllCookies();
  launchchrome.get("https://cleartax.in/account/register?ref=navbar_static");
  // 1. Input Using Xpath of the I/P fields: 
 	launchchrome.findElement(By.xpath("//*[@id=\"UserName\"]")).sendKeys("Shubham Gupta");

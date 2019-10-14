@@ -8,6 +8,8 @@ public class TestloginflowChrome {
 		// TODO Auto-generated method stub
 		System.setProperty("webdriver.chrome.driver","D:\\Automation\\ChromeDriver-77.0\\chromedriver.exe");
 		WebDriver launchchrome = new ChromeDriver();
+		launchchrome.manage().window().maximize();
+		launchchrome.manage().deleteAllCookies();
 		launchchrome.get("https://www.incommail.com/"); 
 		launchchrome.findElement(By.linkText("Log In")).click();
 		launchchrome.findElement(By.id("email")).sendKeys("shubham.gupta@pulpstrategy.com");

@@ -15,6 +15,8 @@ public class Testinputautomatefirefox {
 		FirefoxOptions options = new FirefoxOptions()
 				.setLogLevel(Level.OFF);
 		WebDriver launchfirefox = new FirefoxDriver(options);
+		launchfirefox.manage().window().maximize();
+		launchfirefox.manage().deleteAllCookies();
 		launchfirefox.get("https://cleartax.in/account/register?ref=navbar_static");
 	// 1. Input Using Xpath of the I/P fields: 
 		launchfirefox.findElement(By.xpath("//*[@id=\"UserName\"]")).sendKeys("Shubham Gupta");
