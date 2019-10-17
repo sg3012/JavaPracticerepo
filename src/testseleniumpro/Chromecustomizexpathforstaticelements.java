@@ -10,7 +10,7 @@ public class Chromecustomizexpathforstaticelements {
 	WebDriver launchchrome = new ChromeDriver();
 	launchchrome.manage().window().maximize();
 	launchchrome.manage().deleteAllCookies();
-	launchchrome.get("https://freecrm.com/");
+	launchchrome.get("https://ui.freecrm.com/");
     Thread.sleep(2000);
     //1. Customize xpaths for I/P fields (<input> tags)in a form :
       // a) creating xpath directly (without using any function) :    
@@ -28,7 +28,20 @@ public class Chromecustomizexpathforstaticelements {
 	     
 	    // b) creating xpath using text() function and contains() functions combination : 
               launchchrome.findElement(By.xpath("//a[contains(text(),'Sign Up')]")).click(); */
-	     
+	    
+	// Creating a new Object of chromedriver to open the below in a new window of chrome:      
+	    WebDriver launchchrome2 = new ChromeDriver();
+	    launchchrome2.manage().window().maximize();
+	 	launchchrome2.manage().deleteAllCookies();
+	
+	    launchchrome2.get("https://v4-alpha.getbootstrap.com/components/dropdowns/");
+	    Thread.sleep(2000);
+	 /*   1. Creating custom xpath for a dropdown button element : 
+	    	a) Case 1 : 
+	           launchchrome2.findElement(By.xpath("//div[@class='dropdown']//button[@type='button'and @class='btn btn-secondary dropdown-toggle'and @id='dropdownMenuButton']")).click(); */
+	    
+	     // b) Case 2:
+	           launchchrome2.findElement(By.xpath("//button[@id='dropdownMenuButton']")).click();
 	}
 
 }
