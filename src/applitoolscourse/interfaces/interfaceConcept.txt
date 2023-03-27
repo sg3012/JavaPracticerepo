@@ -1,0 +1,38 @@
+1. Interfaces is similar to Abstract class except 
+   there is one difference that Abstract classes may contain
+   methods with body but in interfaces all methods are abstract (no-body).
+2. In interfaces there is no need to declare the methods as abstract
+   as it is understood by JVM already.
+3. Interfaces are implmented not extended i.e., inheritance concept
+   cannot be used with interfaces. So, we say that we don't 
+   inherit from an interface instead just implement it.
+4. A class that implements an interface must implement all of
+   it's methods (which are abstract in interface) 
+   or declare itself as abstract.
+5. We do not declare variables inside an interface as if we do so
+   we have to make the variables final which means we have to 
+   initialize them also. If we initialize a final variable then
+   it's value cannot be changed which is not useful as the classes
+   implmenting the interfaces may use the fields to change their values. 
+6. We cannot create object of interfaces. So, we will create objects
+   of the implmenting classes which are of type interface.
+   For e.g : Product book  = new Book();
+   Where, Product is the interface.
+          book is the Object reference of type Product
+          Book is the object pointed by object reference "book".
+7. Until Java version 8, if a user tried to add a new method inside an 
+   interface then it will break the code in all the classes directly 
+   implementing the interface and subsequent classes that are using the implementing
+   classes. But JAVA 8 introduced a keyword "default" by using which we
+   can add some extra methods in an interface including method body.
+   That way the code in the implmenting classes and all subsquent classes
+   using the implementing classes won't break.
+8. There is no need to define the access modifiers for methods in an 
+   interface as all methods are public by default.
+9. While a class can only extend one superclass it can implement
+   any number of interfaces.
+   For e.g. : public class Book implements Product, KindleItem{
+            // Now if a class implements multiple interfaces
+            // then it must define all of the methods from
+            // all those interfaces.
+   } 

@@ -1,0 +1,20 @@
+1. Abstraction is a concept in Java which provides high level definitions
+   of Classes and methods.
+2. Abstraction can be defined as something that exists in theory
+   but doesn't have a concrete implementation i.e., something
+   defined abstract cannot be used as is there has to be a concrete 
+   implementation of that thing to perform various operations.
+3. The concrete implementation of abstract classes and methods 
+   is done by using inheritance.    
+4. JAVA has a keyword abstract to implement Abstraction concept. The 
+   keyword "abstract" is a non-access modifier.
+5. Abstract classes in JAVA cannot be instantiated instead they can be 
+   extended by child classes.
+6. A subclass must override all abstract methods of an abstract class
+7. Abstract class has a body that contains only method declarations.
+8. The methods which are thus declared in abstract classes are 
+   usually abstract methods. Abstract methods do not have 
+   a body just the declaration header.
+9. Abstract methods are designed to be overriden in sub-classes 
+   providing specific implementations.No body should be 
+   there in abstract methods.    
