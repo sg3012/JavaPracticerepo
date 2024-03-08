@@ -1,7 +1,6 @@
 package hackerRankpracticechallenges.problems.src.stringQuestions;
 
-import java.io.*;
-import java.util.*;
+import java.util.Scanner;
 
 public class lexicographicOrder {
     public static void main(String[] args) {

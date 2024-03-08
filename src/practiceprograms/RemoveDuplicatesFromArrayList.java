@@ -1,6 +1,9 @@
 package src.practiceprograms;
 
-import java.util.*;
+import java.util.ArrayList;
+import java.util.LinkedHashSet;
+import java.util.Scanner;
+import java.util.Set;
 
 // WAP in JAVA to remove all duplicate elements from an Array list of
 // Integers

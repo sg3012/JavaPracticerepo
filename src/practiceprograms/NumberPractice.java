@@ -1,7 +1,5 @@
 package src.practiceprograms;
 
-import java.math.BigDecimal;
-
 public class NumberPractice {
 
 	public static void main(String[] args) {

@@ -1,8 +1,8 @@
 package src.practiceprograms;
 
-import java.util.Scanner;
-import java.util.Map;
 import java.util.HashMap;
+import java.util.Map;
+import java.util.Scanner;
 
 // Write a program to find uncommon elements in 2 arrays.
 // For e.g consider the following arrays:

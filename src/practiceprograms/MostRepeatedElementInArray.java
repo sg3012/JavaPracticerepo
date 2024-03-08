@@ -1,9 +1,9 @@
 package src.practiceprograms;
 
-import java.util.Scanner;
-import java.util.Map;
-import java.util.HashMap;
 import java.util.Collections;
+import java.util.HashMap;
+import java.util.Map;
+import java.util.Scanner;
 
 // Write a program to find the most repeated/frequent element in an array.
 // For e.g. : If there is an integer array like : [1,4,5,3,4,4,5,6,5,7,5,6]

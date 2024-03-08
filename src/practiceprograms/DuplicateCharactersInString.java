@@ -1,6 +1,8 @@
 package src.practiceprograms;
 
-import java.util.*;
+import java.util.HashMap;
+import java.util.Map;
+import java.util.Scanner;
 
 // Write a program to find duplicate characters in a string.
 // For e.g. : If there is a string like "abcaadcccd"

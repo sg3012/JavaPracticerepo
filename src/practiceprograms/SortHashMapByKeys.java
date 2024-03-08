@@ -1,6 +1,9 @@
 package src.practiceprograms;
 
-import java.util.*;
+import java.util.LinkedHashMap;
+import java.util.Map;
+import java.util.Scanner;
+import java.util.TreeMap;
 
 public class SortHashMapByKeys {
 

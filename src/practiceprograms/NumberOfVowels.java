@@ -1,8 +1,8 @@
 package src.practiceprograms;
 
-import java.util.Scanner;
-import java.util.Map;
 import java.util.HashMap;
+import java.util.Map;
+import java.util.Scanner;
 
 //Write a program to find the number of vowels in a string
 // Vowels : a,e,i,o,u  OR A,E,I,O,U

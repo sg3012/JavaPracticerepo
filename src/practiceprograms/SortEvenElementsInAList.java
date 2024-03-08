@@ -1,6 +1,7 @@
 package src.practiceprograms;
 
-import java.util.*;
+import java.util.Arrays;
+import java.util.Scanner;
 
 // WAP in JAVA to sort all the even numbers in a list of integer elements
 // in ascending order

@@ -2,8 +2,13 @@ package src.practiceprograms;
 
 import java.util.Scanner;
 
+// WAP to remove duplicate characters from a string
+// i.e, it read whole String character by character
+// and remove any duplicate occurrence of that character
+
+// For e.g. The string "test automation in selenium test automation"
+// Should result into "tes auominl"
 public class RemoveDuplicatesFromString {
-	
 	private static Scanner scan = new Scanner(System.in);
 	
 	public static void main(String args[]) {

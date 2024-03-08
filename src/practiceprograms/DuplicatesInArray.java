@@ -1,10 +1,10 @@
 package src.practiceprograms;
 
-import java.util.Scanner;
-import java.util.Set;
-import java.util.Map;
 import java.util.HashMap;
 import java.util.HashSet;
+import java.util.Map;
+import java.util.Scanner;
+import java.util.Set;
 
 // Write a program to find duplicates in an array.
 // Example if an array is like : 
@@ -76,12 +76,12 @@ public class DuplicatesInArray {
 		Map<Integer, Integer> mapOfSampleArray = new HashMap<Integer, Integer>();
 
 		// Loop through the array to Check whether or not
-		// the number in the sampleArray above is alreay
-		// stored as a key inisde the hashMap
+		// the number in the sampleArray above is already
+		// stored as a key inside the hashMap
 		// if it is there in the map already then increment
 		// the value against that key by 1 else
 		// insert that number as a key with value/count 1
-		// The varibale "number" corresponds to the index wise values in the array.
+		// The variable "number" corresponds to the index wise values in the array.
 
 		for (int number : sampleArray) {
 
@@ -109,7 +109,7 @@ public class DuplicatesInArray {
 
 			// If the value of any key
 			// is greater than 1 then return
-			// the correspnding key otherwise continue looping
+			// the corresponding key otherwise continue looping
 			if (value.getValue() > 1) {
 
 				System.out.print(value.getKey() + ", ");

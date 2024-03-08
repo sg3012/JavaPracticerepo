@@ -1,10 +1,8 @@
 package src.practiceprograms;
 
-import java.util.Scanner;
-
-import java.util.Map;
-
 import java.util.HashMap;
+import java.util.Map;
+import java.util.Scanner;
 
 // Write a program to find distinct elements in an array.
 // Example if an array is like : 

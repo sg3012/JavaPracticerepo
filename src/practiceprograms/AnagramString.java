@@ -1,7 +1,7 @@
 package src.practiceprograms;
 
-import java.util.Scanner;
 import java.util.Arrays;
+import java.util.Scanner;
 
 // Write a program to check whether 2 strings are Anagram or not.
 // An anagram is a word or phrase formed by rearranging the 

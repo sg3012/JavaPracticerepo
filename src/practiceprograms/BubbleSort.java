@@ -1,6 +1,5 @@
 package src.practiceprograms;
 
-import java.math.BigDecimal;
 import java.util.Scanner;
 
 // Bubble sort~~~, sometimes referred to as sinking sort, 
