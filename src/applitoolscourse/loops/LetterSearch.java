@@ -2,7 +2,7 @@ package src.applitoolscourse.loops;
 import java.util.Scanner;
 /**
  * LOOP BREAK
- * Search a string to determin if it contains the letter "A" or "a" with the help of loop
+ * Search a string to determine if it contains the letter "A" or "a" with the help of loop
  * If the letter is found then break from the loop.
  */
 
