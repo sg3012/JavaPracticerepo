@@ -16,7 +16,7 @@ public class InheritanceTester {
         mom.setName("Preeti");
         System.out.println(mom.getName()+" is a "+mom.getGender());
     }
-    
+
     public static void testSquareOverride(){
       Rectangle rectangle = new Rectangle();
       rectangle.setLength(240);
@@ -29,8 +29,8 @@ public class InheritanceTester {
       System.out.println(square.calculatePerimeter()); // When child class square
                                                        // calls the overriden method
                                                        // calculatePerimeter() from the
-                                                       // parent class it actually calls 
-                                                       // the overriding method of the same name 
-                                                       // from child class square. 
+                                                       // parent class it actually calls
+                                                       // the overriding method of the same name
+                                                       // from child class square.
     }
 }

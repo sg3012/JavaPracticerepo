@@ -7,7 +7,7 @@ public class Book implements Product {
     private String author;
     private int pages;
     private String isbn;
-    
+
     @Override
     public double getPrice() {
         return price;
@@ -22,7 +22,7 @@ public class Book implements Product {
     public String getName() {
         return name;
     }
-    
+
     @Override
     public void setName(String name) {
         this.name = name;
@@ -57,7 +57,7 @@ public class Book implements Product {
     public String getIsbn() {
         return isbn;
     }
-    
+
     public void setIsbn(String isbn) {
         this.isbn = isbn;
     }

@@ -33,9 +33,9 @@ public class ExceptionHandling {
                 double num = fileReader.nextDouble();
                 System.out.println(num);
             }
-        } 
+        }
         // To use multiple exception types
-        // in a single catch block's parameter list, we use the 
+        // in a single catch block's parameter list, we use the
         // pipe symbol like below
         catch (FileNotFoundException | InputMismatchException e) {
             e.printStackTrace();

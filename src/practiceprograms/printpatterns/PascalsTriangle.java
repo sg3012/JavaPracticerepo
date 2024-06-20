@@ -5,13 +5,13 @@ import java.util.Scanner;
 // WAP to print the Pascal's triangle shown below on the basis
 // of number of rows entered from user input
 
-// The triangle may be constructed in the following 
-// manner: In row 0 (the topmost row), there is a unique 
-// nonzero entry 1. Each entry of each subsequent row is constructed 
-// by adding the number above and to the left with the number 
-// above and to the right, treating blank entries as 0. 
-// For example, the initial number in the first (or any other) 
-// row is 1 (the sum of 0 and 1), whereas the numbers 1 and 3 in 
+// The triangle may be constructed in the following
+// manner: In row 0 (the topmost row), there is a unique
+// nonzero entry 1. Each entry of each subsequent row is constructed
+// by adding the number above and to the left with the number
+// above and to the right, treating blank entries as 0.
+// For example, the initial number in the first (or any other)
+// row is 1 (the sum of 0 and 1), whereas the numbers 1 and 3 in
 // the third row are added to produce the number 4 in the fourth row.
 
 //            1 - Row 0
@@ -21,7 +21,7 @@ import java.util.Scanner;
 //    1  4    6   4   1 - Row 4
 //  1  5   10   10  5   1 - Row 5
 
-// Sources: 
+// Sources:
 // https://en.wikipedia.org/wiki/Pascal%27s_triangle
 // https://www.mathsisfun.com/pascals-triangle.html
 public class PascalsTriangle {
@@ -48,11 +48,11 @@ public class PascalsTriangle {
 
         rows = scan.nextInt();
 
-        int count = 0; // this variable is used to track the elements' indices 
+        int count = 0; // this variable is used to track the elements' indices
                        // in the individual rows.
 
         for (int i = 0; i <= rows - 1; i++) { // This loop will track of the number of rows in the triangle
-                                              // i.e, if there are 2 rows then it will run 2 times, 
+                                              // i.e, if there are 2 rows then it will run 2 times,
                                               // if there are 3 rows then it will run 3 times.
 
             currentRow = new int[i + 1];      // Initializing the current row array
@@ -87,7 +87,7 @@ public class PascalsTriangle {
 
                 else if (k == i) { // This condition will check if k equals
                                    // the last element index of the current row i.e., row number.
-                                   // For e.g : if the current row number is 3 then last element 
+                                   // For e.g : if the current row number is 3 then last element
                                    // index would also be 3.
 
                     currentRow[k] = 1;

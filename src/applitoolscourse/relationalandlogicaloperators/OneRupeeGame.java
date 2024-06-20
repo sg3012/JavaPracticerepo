@@ -5,13 +5,13 @@ import java.util.Scanner;
   >,<, >=,<=,!=,==
   Logical operators:
   &&,||,!
-  The objective of the game is to 
+  The objective of the game is to
   enter enough change to equal exactly one rupee.
   1. Ask user how many 5 paise coins he would like to enter?
   2. Ask user how many 10 paise coins he would like to enter?
   3. Ask user how many 25 paise coins he would like to enter?
   4. Ask user how many 50 paise coins he would like to enter?
-  5. After entering the number of coins - calculate the value 
+  5. After entering the number of coins - calculate the value
      obtained by these coins.
   6. IF the value is equal to exactly one rupee then user wins.
   7. if the value is less than one rupee then tell the user how many he was short of one rupee

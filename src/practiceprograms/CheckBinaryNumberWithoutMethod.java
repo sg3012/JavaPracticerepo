@@ -2,12 +2,12 @@ package src.practiceprograms;
 
 import java.util.Scanner;
 
-//Write a program to check if a number is binary. 
-// A binary number is a number expressed in the base-2 numeral 
-// system or binary numeral system, a method of mathematical 
+//Write a program to check if a number is binary.
+// A binary number is a number expressed in the base-2 numeral
+// system or binary numeral system, a method of mathematical
 // expression which uses only two symbols: typically "0" and "1".
 // So, if each digit of a number is either 0 or 1
-// then it's binary else not. 
+// then it's binary else not.
 
 public class CheckBinaryNumberWithoutMethod {
 

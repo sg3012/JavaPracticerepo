@@ -1,7 +1,7 @@
 package src.applitoolscourse.classesandobjects;
 
 public class PhoneBillCalculator {
-    
+
     public static void main(String args[]) {
         // Get the values of unknown variables from user input
         PhoneBill bill  = new PhoneBill("5");
@@ -20,5 +20,5 @@ public class PhoneBillCalculator {
         bill.calculateFinalBill(baseCost, overCharge, tax);
 
 
-    } 
+    }
 }

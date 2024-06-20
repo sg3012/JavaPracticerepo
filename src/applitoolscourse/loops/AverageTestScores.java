@@ -3,11 +3,11 @@ import java.util.Scanner;
 /**
  * NESTED LOOPS
  * Find the average test scores for each student in the class
- * There are 24 students in the class and each student has 4 tests.  
+ * There are 24 students in the class and each student has 4 tests.
  */
 
 public class AverageTestScores {
-    
+
     public static void main(String args[]){
           // Initialize the known values
           int numberOfStudents = 24;

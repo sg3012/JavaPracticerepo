@@ -38,7 +38,7 @@ public class FibonacciSeriesUsingRecursion {
 
         long sum = 0;
 
-        ArrayList<Long> series = new ArrayList<Long>();
+        ArrayList<Long> series = new ArrayList<>();
 
         System.out.println("Enter the size of the Fibonacci Sequence:");
 
@@ -54,9 +54,9 @@ public class FibonacciSeriesUsingRecursion {
         series = fibonacci(series, f0, f1, sum, fN);
 
         // Printing the Fibonacci Series in the form of ArrayList
-        for (int i = 0; i < series.size(); i++) {
+        for (Long element : series) {
 
-            System.out.print(series.get(i) + " ");
+            System.out.print(element + " ");
         }
 
         scan.close();

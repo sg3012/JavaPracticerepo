@@ -3,14 +3,14 @@ package src.practiceprograms;
 import java.util.Scanner;
 
 // WAP to check whether a given number is Armstrong or not.
-// Armstrong number definition is the number in any given 
-// number base, which forms the total of the same number, 
-// when each of its digits is raised to the power of the number 
+// Armstrong number definition is the number in any given
+// number base, which forms the total of the same number,
+// when each of its digits is raised to the power of the number
 // of digits in the number.
 
-// For example : using a simple number 153 and the decimal 
-// system, we see there are 3 digits in it. If we do a simple 
-// mathematical operation of raising each of its digits to the 
+// For example : using a simple number 153 and the decimal
+// system, we see there are 3 digits in it. If we do a simple
+// mathematical operation of raising each of its digits to the
 // power of 3, and then totalling the sum obtained, we get 153.
 // So, 153 is an Armstrong number.
 
@@ -22,7 +22,7 @@ public class ArmstrongNumber {
 
 
         // We have used double data type for Remainder and numberOfDigits
-        // because pow() function takes both arguments as double type. 
+        // because pow() function takes both arguments as double type.
         double numberOfDigits = 0, remainder;
 
         // We have used long to store large integers.

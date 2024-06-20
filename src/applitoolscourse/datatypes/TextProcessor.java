@@ -1,7 +1,7 @@
 package src.applitoolscourse.datatypes;
 
 public class TextProcessor {
-    
+
     /**
      * Splits a string into an array by tokenizing it.
      * Counts words and prints them.
@@ -24,5 +24,5 @@ public class TextProcessor {
 
     public static void main(String args[]){
         countwords("Selenium automation using JAVA");
-    }    
+    }
 }

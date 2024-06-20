@@ -68,7 +68,7 @@ public class UncommonElements {
 
         System.arraycopy(arr2, 0, result, size1, size2);
 
-        Map<Integer, Integer> mapOfSampleArray = new HashMap<Integer, Integer>();
+        Map<Integer, Integer> mapOfSampleArray = new HashMap<>();
 
         Integer count;
 

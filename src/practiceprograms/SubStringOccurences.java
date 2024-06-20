@@ -44,7 +44,7 @@ public class SubStringOccurences {
 
       // This loop will iterate through the split string array
       // and assign the remaining string which has not been traversed
-      // to the main string, after the occurence of sub-string using split method above.  
+      // to the main string, after the occurence of sub-string using split method above.
       for (int i = 0; i < splitString.length; i++) {
 
         // This condition will check if the next index in the split string array
@@ -76,12 +76,12 @@ public class SubStringOccurences {
       System.out.println("Substring " +"'"+ subString +"'"+" Occurs " + count + " time(s)");
 
     }
-   
+
     else{
 
       System.out.println("No Occurrences of "+"'"+subString+"'"+" found!!.");
     }
-    
+
     scan.close();
   }
 }

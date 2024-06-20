@@ -70,9 +70,9 @@ public class ReverseAListOfElements {
 
         System.out.println("Reversed list: ");
 
-        for (int i = 0; i < listOfElements.length; i++) {
+        for (int listOfElement : listOfElements) {
 
-            System.out.println(listOfElements[i]);
+            System.out.println(listOfElement);
         }
 
         scan.close();

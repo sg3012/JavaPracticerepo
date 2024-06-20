@@ -9,9 +9,9 @@ public class LotteryTicket {
     public static int[] generateNumbers(){
 
         int ticket [] = new int[LENGTH];
-        
+
         Random random = new Random();
-        
+
         for(int i=0; i<LENGTH;i++){
             int randomNumber;
 
@@ -24,13 +24,13 @@ public class LotteryTicket {
             }while(search(ticket, randomNumber));
 
             /**
-             * Number is unique if we get here. Add it to the array. 
+             * Number is unique if we get here. Add it to the array.
              */
-            ticket[i] = randomNumber; 
-        }  
+            ticket[i] = randomNumber;
+        }
     return ticket;
     }
-    
+
     /**
      * This method does a sequential search on the array to find a value
      * @param array Array to search the element in
@@ -38,9 +38,9 @@ public class LotteryTicket {
      * @return true if element found, false if not
      */
     public static boolean search(int array[], int numberToSearch){
-      
+
         /*This is called enhanced for loop.
-         *It iterates through 'array' and 
+         *It iterates through 'array' and
          *each time assigns the current array element to 'value'.
         */
 
@@ -55,7 +55,7 @@ public class LotteryTicket {
     }
 
     public static boolean binarySrch(int array[], int numberToSearch){
-        
+
         // Array must be sorted first
         Arrays.sort(array);
 
@@ -63,12 +63,11 @@ public class LotteryTicket {
 
         if(index>=0){
             return true;
-        }
-
-        else
-        return false;
+        } else {
+			return false;
+		}
     }
-   
+
     public static void printTicket(int ticket[]){
       for(int i=0; i< LENGTH; i++){
           System.out.print(ticket[i]+ " | ");
@@ -79,5 +78,5 @@ public class LotteryTicket {
       int ticket[] = generateNumbers();
       Arrays.sort(ticket);
       printTicket(ticket);
-    }   
+    }
 }

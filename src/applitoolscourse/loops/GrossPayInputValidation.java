@@ -3,7 +3,7 @@ import java.util.Scanner;
 /**
  * WHILE LOOP
  * Each store employee earn Rs.50 an hour. Write a program that
- * allows the employee to enter the number of hours worked for 
+ * allows the employee to enter the number of hours worked for
  * the week. Do not allow the overtime
  */
 
@@ -28,5 +28,5 @@ public class GrossPayInputValidation {
       // Calculate gross pay for the employee
       double grossPay = rate * hoursWorked;
       System.out.println("Gross Pay: Rs."+grossPay);
-  }    
+  }
 }

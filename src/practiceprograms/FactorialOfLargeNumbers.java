@@ -2,9 +2,9 @@ package src.practiceprograms;
 import java.util.Scanner;
 
 // Write a program to find the factorial of large numbers
-// 5! = 5*4*3*2*1 or 1*2*3*4*5  
+// 5! = 5*4*3*2*1 or 1*2*3*4*5
 
-// Source : 
+// Source :
 // https://iq.opengenus.org/factorial-of-large-numbers/
 // https://www.javatpoint.com/factorial-of-a-large-number-in-java
 // https://www.geeksforgeeks.org/factorial-large-number/
@@ -24,7 +24,7 @@ public class FactorialOfLargeNumbers {
 
         int resultArray[] = new int[500];
 
-        resultArray[0] = 1; // 1 is stored as the starting number 
+        resultArray[0] = 1; // 1 is stored as the starting number
                             // as the 1 will be the starting/last number
                             // to be multiplied while finding the factorial.
 
@@ -32,7 +32,7 @@ public class FactorialOfLargeNumbers {
 
         number = scan.nextInt();
 
-        for(i=2; i<=number; i++){ // This loop keeps track of the next number we 
+        for(i=2; i<=number; i++){ // This loop keeps track of the next number we
                                   // have to multiply in the existing number
 
             carry = 0;
@@ -49,16 +49,16 @@ public class FactorialOfLargeNumbers {
 
                 temp = resultArray[j]; // storing each digit of the array in temp
 
-                resultArray[j] = ((temp * i) + carry) % 10; // This line will find the product 
+                resultArray[j] = ((temp * i) + carry) % 10; // This line will find the product
                                                             // using value at current array index and i
-                                                            // and if there is a carry it will 
+                                                            // and if there is a carry it will
                                                             // store only the unit's place of the product
-                                                            // at the current array index.   
+                                                            // at the current array index.
                                                             // For e.g: 12%10 = 2
 
                 carry = ((temp * i) + carry) / 10;  // This line will calculate the carry
-                                                    // by storing the remaining value except 
-                                                    // the unit's place value of the product 
+                                                    // by storing the remaining value except
+                                                    // the unit's place value of the product
                                                     // (calculated in above line)
                                                     // For e.g. : 12/10 = 1
 
@@ -70,14 +70,14 @@ public class FactorialOfLargeNumbers {
             while(carry > 0){  // After the digits at all the indices
                                // of the array are multipled by i (next number)
                                // and product's unit place digit and remaining
-                               // carry's unit's place digit are stored at appropriate places, 
+                               // carry's unit's place digit are stored at appropriate places,
                                // this loop will store the remaining digits of carry
                                // at appropriate index in the array.
 
                 System.out.println("In while loop: ");
 
                 System.out.println("carry: "+carry);
-                
+
                 System.out.println("j: "+j);
 
                 System.out.println("Before carry, resultArray["+j+"] "+resultArray[j]);
@@ -105,11 +105,11 @@ public class FactorialOfLargeNumbers {
         System.out.println("Factorial of "+number+": ");
 
         for(int k = j-1  ; k >= 0; k--){
-          
+
             System.out.print(resultArray[k]);
 
         }
         scan.close();
-        
+
     }
 }

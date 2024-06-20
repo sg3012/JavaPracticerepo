@@ -2,14 +2,14 @@ package src.practiceprograms;
 
 import java.util.Scanner;
 
-// The selection sort algorithm sorts an array by repeatedly 
-// finding the minimum (or maximum) element 
-// from unsorted part and putting it at the beginning. 
+// The selection sort algorithm sorts an array by repeatedly
+// finding the minimum (or maximum) element
+// from unsorted part and putting it at the beginning.
 // The algorithm maintains two subarrays in a given array.
-// 1) The subarray which is already sorted. 
+// 1) The subarray which is already sorted.
 // 2) Remaining subarray which is unsorted.
-// In every iteration of selection sort, the minimum (or maximum) element 
-// from the unsorted subarray is picked/Selected and moved to the sorted subarray. 
+// In every iteration of selection sort, the minimum (or maximum) element
+// from the unsorted subarray is picked/Selected and moved to the sorted subarray.
 
 public class SelectionSort {
 
@@ -89,9 +89,9 @@ public class SelectionSort {
 
         System.out.println("Sorted array(ascending): ");
 
-        for (int k = 0; k < array.length; k++) {
+        for (int element : array) {
 
-            System.out.println(array[k]);
+            System.out.println(element);
         }
 
         // Array sorted in Descending order:
@@ -100,9 +100,9 @@ public class SelectionSort {
 
         System.out.println("Sorted array(descending): ");
 
-        for (int k = 0; k < array.length; k++) {
+        for (int element : array) {
 
-            System.out.println(array[k]);
+            System.out.println(element);
         }
 
         scan.close();

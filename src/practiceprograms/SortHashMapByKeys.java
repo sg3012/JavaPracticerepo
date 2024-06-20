@@ -11,7 +11,7 @@ public class SortHashMapByKeys {
 
 	public static TreeMap<Integer, String> sortMapByKey(Map<Integer, String> linkedHashMap) {
 
-		return new TreeMap<Integer, String>(linkedHashMap);
+		return new TreeMap<>(linkedHashMap);
 
 	}
 
@@ -26,7 +26,7 @@ public class SortHashMapByKeys {
 		// Enter elements in HashMap through user input
 		System.out.println("Enter the elements in HashMap:");
 
-		Map<Integer, String> sampleMap = new LinkedHashMap<Integer, String>();
+		Map<Integer, String> sampleMap = new LinkedHashMap<>();
 
 		for (int i = 1; i <= size; i++) {
 

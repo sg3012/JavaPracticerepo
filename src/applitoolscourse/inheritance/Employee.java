@@ -8,7 +8,7 @@ public class Employee extends Person {
         super("Shubham");
         System.out.println("In Employee class default constructor");
     }
-   
+
     public String getEmployeeId(){
         return employeeId;
     }
@@ -18,11 +18,11 @@ public class Employee extends Person {
     }
 
     public String getTitle(){
-        return title;    
+        return title;
     }
 
     public void setTitle(String title){
      this.title = title;
     }
-    
+
 }

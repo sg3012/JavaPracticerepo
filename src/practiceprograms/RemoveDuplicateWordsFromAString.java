@@ -4,7 +4,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 // WAP to remove duplicate words from a string
-// i.e, it read whole String word by word, 
+// i.e, it read whole String word by word,
 // remove any duplicate occurrences of that word
 // and print the final string containing only unique words.
 // The final string should contain all original words
@@ -25,7 +25,7 @@ public class RemoveDuplicateWordsFromAString {
 
 		// Create a HashMap to store each word in the array
 
-		Map<String, Integer> mapOfString = new HashMap<String, Integer>();
+		Map<String, Integer> mapOfString = new HashMap<>();
 
 		// Declare a Integer variable to track the count of each word in the HashMap
 
@@ -54,7 +54,7 @@ public class RemoveDuplicateWordsFromAString {
 			System.out.print(e1.getKey() + ": " + e1.getValue());
 			System.out.println();
 		}
-		
+
 		System.out.println("-----------");
 
 		// Create a String builder object to store the unique

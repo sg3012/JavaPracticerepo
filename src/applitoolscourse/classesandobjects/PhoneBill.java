@@ -39,12 +39,12 @@ public class PhoneBill {
         this.baseCost = baseCost;
         this.numberOfAllottedMinutes = numberOfAllotedMinutes;
         this.numberOfMinutesUsed = numberOfMinutesUsed;
-    } 
+    }
 
     public String getId(){
         return id;
     }
-  
+
     public void setId(String id){
         this.id = id;
     }
@@ -60,7 +60,7 @@ public class PhoneBill {
     public double getAllotedMinutes(){
         return numberOfAllottedMinutes;
      }
- 
+
     public void setAllotedMinutes(double numberOfAllottedMinutes){
         this.numberOfAllottedMinutes = numberOfAllottedMinutes;
      }
@@ -68,7 +68,7 @@ public class PhoneBill {
     public double getMinutesUsed(){
         return numberOfMinutesUsed;
      }
- 
+
     public void setMinutesUsed(double numberOfMinutesUsed){
          this.numberOfMinutesUsed = numberOfMinutesUsed;
      }

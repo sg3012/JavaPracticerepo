@@ -1,5 +1,5 @@
-//Problem : Write a program to print all the LEADERS in the array. An element is a leader if it is greater than 
-//all the elements to its right side. And the rightmost element is always a leader. 
+//Problem : Write a program to print all the LEADERS in the array. An element is a leader if it is greater than
+//all the elements to its right side. And the rightmost element is always a leader.
 //For example in the array {16, 17, 4, 3, 5, 2}, leaders are 17, 5 and 2.
 
 package src.practiceprograms;
@@ -56,14 +56,14 @@ public class LeaderElements {
 					break;
 				}
 			}
-			if (flag == true) {
+			if (flag) {
 
 				array[count] = array[j];
 
 				System.out.println(array[count]);
 
 				count = count + 1;
-			} else if (flag == false) {
+			} else if (!flag) {
 
 				flag = false;
 			}

@@ -19,7 +19,7 @@ public class DuplicateCharactersInString {
         System.out.println("Enter the string:");
 
         sampleString = scan.nextLine();
-        
+
         // Converting the whole string to lower case so, that 'A' and 'a' are
         // not treated different characters
         sampleString = sampleString.toLowerCase();
@@ -56,7 +56,7 @@ public class DuplicateCharactersInString {
         // 1. Create a Hashmap corresponding to the sample string above
         // which will hold Character key and Integer value
         // <Character, Integer>
-        Map<Character, Integer> mapOfSampleString = new HashMap<Character, Integer>();
+        Map<Character, Integer> mapOfSampleString = new HashMap<>();
 
         // Loop through the string to Check whether or not
         // the character in the sampleString above is alreay

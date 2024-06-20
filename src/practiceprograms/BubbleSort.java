@@ -2,13 +2,13 @@ package src.practiceprograms;
 
 import java.util.Scanner;
 
-// Bubble sort~~~, sometimes referred to as sinking sort, 
-// is a simple sorting algorithm that repeatedly steps through the list, 
+// Bubble sort~~~, sometimes referred to as sinking sort,
+// is a simple sorting algorithm that repeatedly steps through the list,
 // compares adjacent elements and swaps them if they are in the wrong order.
 
-// Just like the movement of air bubbles in 
-// the water that rise up to the surface, each element 
-// of the array move to the end in each iteration. Therefore, it 
+// Just like the movement of air bubbles in
+// the water that rise up to the surface, each element
+// of the array move to the end in each iteration. Therefore, it
 // is called a bubble sort.
 
 public class BubbleSort {
@@ -109,9 +109,9 @@ public class BubbleSort {
 
 		arr = sortBubbleAsc(arr);
 
-		for (int i = 0; i < arr.length; i++) {
+		for (int element : arr) {
 
-			System.out.println(arr[i]);
+			System.out.println(element);
 		}
 
 		// System.out.println("Sorted array(descending order):");

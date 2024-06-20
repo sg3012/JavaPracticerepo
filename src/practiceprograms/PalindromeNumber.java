@@ -6,7 +6,7 @@ import java.util.Scanner;
 // Palindrome number is a number which remains unchanged when
 // its digits are reversed.
 
-// For example : using a simple number 252 and the decimal 
+// For example : using a simple number 252 and the decimal
 // system, we see that if we reverse the digits then number
 // is still 252. Hence, it is palindrome number.
 

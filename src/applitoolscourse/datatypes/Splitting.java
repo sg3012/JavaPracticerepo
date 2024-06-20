@@ -9,7 +9,7 @@ public class Splitting {
         for(int i=0; i<arr.length; i++){
             System.out.println("Iteration:"+(i+1));
             System.out.println(arr[i]);
-        } 
+        }
     }
-    
+
 }

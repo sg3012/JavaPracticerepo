@@ -15,5 +15,5 @@ public interface Product {
     default String getBarCode(){
         return "no barcode";
     }
-    
+
 }

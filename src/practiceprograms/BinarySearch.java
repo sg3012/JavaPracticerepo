@@ -73,22 +73,18 @@ public class BinarySearch {
             mid = (int) Math.ceil((lowerBound + upperBound) / 2); // Typecasting
             // the double value returned by floor function to int.
 
-            if (arr[mid] > targetElement)
-
-                upperBound = mid - 1;
-
-            else
-
-                lowerBound = mid;
+            if (arr[mid] > targetElement) {
+				upperBound = mid - 1;
+			} else {
+				lowerBound = mid;
+			}
         }
 
-        if (arr[(int) lowerBound] == targetElement)
-
-            return (int) lowerBound; // typecasting double to int
-
-        else
-
-            return -1;
+        if (arr[(int) lowerBound] == targetElement) {
+			return (int) lowerBound; // typecasting double to int
+		} else {
+			return -1;
+		}
     }
 
     public static int binarySearchVersion3(int arr[], int targetElement) {
@@ -107,13 +103,11 @@ public class BinarySearch {
             mid = (int) Math.floor((lowerBound + upperBound) / 2); // Typecasting
             // the double value returned by floor function to int.
 
-            if (arr[mid] < targetElement)
-
-                lowerBound = mid + 1;
-
-            else
-
-                upperBound = mid;
+            if (arr[mid] < targetElement) {
+				lowerBound = mid + 1;
+			} else {
+				upperBound = mid;
+			}
         }
 
         return (int) lowerBound;
@@ -135,13 +129,11 @@ public class BinarySearch {
             mid = (int) Math.floor((lowerBound + upperBound) / 2); // Typecasting
             // the double value returned by floor function to int.
 
-            if (arr[mid] > targetElement)
-
-                upperBound = mid;
-
-            else
-
-                lowerBound = mid + 1;
+            if (arr[mid] > targetElement) {
+				upperBound = mid;
+			} else {
+				lowerBound = mid + 1;
+			}
         }
 
         return (int) (upperBound-1);
@@ -187,9 +179,9 @@ public class BinarySearch {
 
         System.out.println("Sorted Array: ");
 
-        for (int k = 0; k < arr.length; k++) {
+        for (int element : arr) {
 
-            System.out.println(arr[k]);
+            System.out.println(element);
 
         }
 

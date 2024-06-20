@@ -2,8 +2,8 @@ package src.practiceprograms;
 
 import java.util.Scanner;
 
-//Write a program using recursion to check 
-//  whether a number is prime or not. 
+//Write a program using recursion to check
+//  whether a number is prime or not.
 
 public class PrimeNumberUsingRecursion {
 
@@ -65,6 +65,6 @@ public class PrimeNumberUsingRecursion {
             System.out.println(number + " is not a prime number");
 
         }
-        
+
     }
 }

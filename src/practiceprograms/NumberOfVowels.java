@@ -65,7 +65,7 @@ public class NumberOfVowels {
         // 1. Create a Hashmap corresponding to the sample string above
         // which will hold String key and Integer value
         // <Character, Integer>
-        Map<String, Integer> mapOfStr = new HashMap<String, Integer>();
+        Map<String, Integer> mapOfStr = new HashMap<>();
 
         // Loop through the string to Check whether or not
         // the character in the str above is alreay
@@ -76,7 +76,7 @@ public class NumberOfVowels {
 
         for (int i = 0; i < str.length(); i++) {
 
-            // Converted the character at a particular index of 
+            // Converted the character at a particular index of
             // the string first to String and then lowercase
 
             // We have converted to lowercase so, that the characters

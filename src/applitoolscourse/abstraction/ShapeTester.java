@@ -7,5 +7,5 @@ public class ShapeTester {
         rectangle.print();
         System.out.println(rectangle.calculateArea());
     }
-    
+
 }

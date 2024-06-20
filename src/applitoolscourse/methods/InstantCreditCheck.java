@@ -16,7 +16,7 @@ public class InstantCreditCheck {
 
     public static double getSalary() {
         System.out.println("Enter your salary:");
-        double salary = scan.nextDouble(); 
+        double salary = scan.nextDouble();
         return salary;
     }
 

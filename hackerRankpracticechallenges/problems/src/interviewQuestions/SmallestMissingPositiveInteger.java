@@ -8,5 +8,5 @@ class SmallestMissingPositiveInteger {
         return 0;
     }
 
-    
+
 }

@@ -19,7 +19,7 @@ public class Derived2 extends Base
 		// CONSTRUCTOR CALL MUST BE THE FIRST CALL
 		// IN A FUNCTION
 	}
-	
+
 	public static void main(String[] args)
 	{
 		Derived2 obj = new Derived2();

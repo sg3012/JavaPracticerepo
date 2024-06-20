@@ -1,7 +1,7 @@
 package src.applitoolscourse.datatypes;
 
 public class ReverseString {
-    
+
     /**
      * Prints a given String in reverse Order
      * @param text String to be reversed
@@ -15,5 +15,5 @@ public class ReverseString {
     public static void main(String args[]){
 
         reverseString("Hello Shubham!");
-    } 
+    }
 }

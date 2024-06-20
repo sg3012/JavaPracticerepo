@@ -5,5 +5,5 @@ public abstract class Animal {
 
     public void eat(Animal animal){
         System.out.println(animal+" eats");
-    }    
+    }
 }

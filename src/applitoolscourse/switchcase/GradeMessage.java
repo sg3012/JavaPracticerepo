@@ -6,7 +6,7 @@ public class GradeMessage {
         Scanner scan = new Scanner(System.in);
         String grade=scan.next();
         scan.close();
-        String message;  
+        String message;
         switch(grade){
             case "A":
                  message="Excellent job";
@@ -25,9 +25,9 @@ public class GradeMessage {
                  break;
             default:
                  message="Error.Invalid grade";
-                 break;     
+                 break;
         }
     System.out.println(message);
     }
-    
+
 }

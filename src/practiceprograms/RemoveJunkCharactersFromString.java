@@ -9,22 +9,22 @@ import java.util.Scanner;
 // except alphabets in English and digits
 
 public class RemoveJunkCharactersFromString {
-	
+
 	private static Scanner scan = new Scanner(System.in);
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		
+
 		System.out.println("Enter a String of your choice:");
-		
+
 		String str = scan.nextLine();
-		
+
 		scan.close();
-		
+
 		str = str.replaceAll("[^a-zA-Z0-9]", "");
-		
+
 		System.out.println(str);
-		
+
 
 	}
 

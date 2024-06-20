@@ -6,19 +6,19 @@ import java.util.Scanner;
 // of number of rows entered from user input using numbers
 // such that one triangle is the mirror image of the other
 
-// 1 2 3 4 5 6 7 
-//  2 3 4 5 6 7 
-//   3 4 5 6 7 
-//    4 5 6 7 
-//     5 6 7 
-//      6 7 
-//       7 
-//      6 7 
-//     5 6 7 
-//    4 5 6 7 
-//   3 4 5 6 7 
-//  2 3 4 5 6 7 
-// 1 2 3 4 5 6 7 
+// 1 2 3 4 5 6 7
+//  2 3 4 5 6 7
+//   3 4 5 6 7
+//    4 5 6 7
+//     5 6 7
+//      6 7
+//       7
+//      6 7
+//     5 6 7
+//    4 5 6 7
+//   3 4 5 6 7
+//  2 3 4 5 6 7
+// 1 2 3 4 5 6 7
 
 public class CrossTrianglesOfNumbers {
 

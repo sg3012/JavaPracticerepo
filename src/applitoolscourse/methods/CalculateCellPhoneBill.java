@@ -3,13 +3,13 @@ import java.util.Scanner;
 
 // OBJECTIVE-You're going to calculate a cellphone bill.
 
-// So, what you're going to do is allow the user to input 
+// So, what you're going to do is allow the user to input
 // the plan fee and the number of overage minutes. And then you're going to charge 25 cents for every minute that they've gone over, and then a 15% tax on the subtotal.
 
-// create separate methods to calculate the tax, to 
+// create separate methods to calculate the tax, to
 // calculate the overage fees, and to calculate and print the final total.
 
-// Please print this as an itemized bill. I have an example 
+// Please print this as an itemized bill. I have an example
 // of the output expected down below.
 
 // Example Output:

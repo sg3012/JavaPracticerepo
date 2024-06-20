@@ -4,10 +4,10 @@ import java.util.Arrays;
 import java.util.Scanner;
 
 // Write a program to check whether 2 strings are Anagram or not.
-// An anagram is a word or phrase formed by rearranging the 
-// letters of a different word or phrase, typically using all 
+// An anagram is a word or phrase formed by rearranging the
+// letters of a different word or phrase, typically using all
 // the original letters with the same frequency as in the original string
-// For example : 
+// For example :
 // “abcd” and “dabc” are anagram of each other
 // "aacd" and "daca" are anagram of each other.
 // "abcd" and "dabbc" are not anagram of each other.
@@ -50,11 +50,11 @@ public class AnagramString {
 			// Converting the whole string to lower case
 			// and storing in character array because if we don't do it
 			// then 'R' will not be equal to 'r'.
-			
+
 			ch1 = str1.toLowerCase().toCharArray();
-			
+
 			ch2 = str2.toLowerCase().toCharArray();
-			
+
 			// Sort the two Strings
 
 			Arrays.sort(ch1);
@@ -64,11 +64,11 @@ public class AnagramString {
 			// Compare each character from the 1st
 			// String with the second String
 
-			for (int i = 0; i < ch1.length; i++) {
+			for (char element : ch1) {
 
-				for (int j = 0; j < ch2.length; j++) {
+				for (char element2 : ch2) {
 
-					if (ch1[i] != ch2[j]) {
+					if (element != element2) {
 
 						flag = false;
 
@@ -93,11 +93,11 @@ public class AnagramString {
 			}
 
 //            int stringCharacterCountTracker1[] = new int[26];
-//            
+//
 //            int stringCharacterCountTracker2[] = new int[26];
 
 //            for(int i=0; i < str1.length(); i++){
-//                
+//
 //                 int index = stringCharacterCountTracker1[str1.toLowerCase().charAt(i) - 'a'];
 //
 //                System.out.println("Value at index "+ i+" " +str1.toLowerCase().charAt(i));
@@ -110,7 +110,7 @@ public class AnagramString {
 //
 //                System.out.println("Index increment "+index);
 //
-//                
+//
 //        }
 		}
 

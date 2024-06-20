@@ -7,7 +7,7 @@ import java.util.Scanner;
  */
 public class StudentGradeCalculator {
     public static void main(String args[]){
-        
+
         // Get the test score from user input
         System.out.println("What is your test score?:");
         Scanner scan = new Scanner(System.in);
@@ -52,7 +52,7 @@ public class StudentGradeCalculator {
         }
         else{
             grade='A';
-        } 
+        }
         System.out.println("Your grade is "+grade);
     }
 }

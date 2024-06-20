@@ -5,13 +5,13 @@ public class RemoveDuplicateElementsFromArrayWithoutUsingCollections {
 	public static void main(String[] args) {
 		int a[] = {1,1,2,1,2,3,4,5,5,6};
 		int n = a.length;
-		
+
 		System.out.println("Original Array");
 
 		for (int i = 0; i < n; i++) {
 			System.out.print(a[i] + " ");
 		}
-		
+
 		System.out.println();
 
 		if (n <= 1) {

@@ -8,18 +8,18 @@ import java.util.Scanner;
 
 // * * * * * * *
 //  * * * * * *
-//   * * * * *  
+//   * * * * *
 //    * * * *
 //     * * *
 //      * *
-//       * 
+//       *
 //       *
 //      * *
 //     * * *
 //    * * * *
 //   * * * * *
 //  * * * * * *
-// * * * * * * * 
+// * * * * * * *
 public class CrossTrianglesOfStars {
 
   public static void main(String args[]) {
@@ -61,7 +61,7 @@ public class CrossTrianglesOfStars {
     for (i = rows; i > rows - 1; i--) { // to print one backspace in last row of upper triangle
 
       System.out.print("\b");
-      
+
     }
 
     for (i = rows; i >= 1; i--) {

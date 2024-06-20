@@ -2,7 +2,7 @@ package src.practiceprograms;
 
 import java.util.Scanner;
 
-// Write a program to swap 2 numbers using multiplication and division 
+// Write a program to swap 2 numbers using multiplication and division
 // operators but without using a temp variable
 
 public class SwapTwoNumbersWithoutTemp2 {

@@ -23,8 +23,8 @@ public class Coin {
         else{
             setSide(TAILS);
         }
-    
+
     }
 
-    
+
 }

@@ -3,7 +3,7 @@ package src.practiceprograms;
 import java.util.Scanner;
 
 public class MaximumInteger {
-	
+
 	private static Scanner scan = new Scanner(System.in);
 
     public static int findMaximumInteger(int listSize, int list[]) {
@@ -12,11 +12,11 @@ public class MaximumInteger {
         max = list[0];
 
         // search array find for the minimum element
-        for (int j = 0; j < list.length; j++) {
+        for (int element : list) {
 
-            if (list[j] > max) {
+            if (element > max) {
 
-                max = list[j];
+                max = element;
 
             }
         }
@@ -27,7 +27,7 @@ public class MaximumInteger {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		
+
 		int size = 0;
 
         System.out.println("Enter number of intergers in the list:");

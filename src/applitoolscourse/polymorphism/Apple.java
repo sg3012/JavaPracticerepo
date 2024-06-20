@@ -9,10 +9,10 @@ public class Apple extends Fruit {
     public void removeSeeds(){
       System.out.println("Remove seeds of Apple before eating");
     }
-   
+
     @Override
     public void makeJuice(){
         System.out.println("Apple Juice is made");
     }
-    
+
 }

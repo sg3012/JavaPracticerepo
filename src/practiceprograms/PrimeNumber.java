@@ -43,7 +43,7 @@ public class PrimeNumber {
 				}
 			}
 
-			if (flag1 == true) {
+			if (flag1) {
 
 				System.out.println("Decimal Numbers are not prime");
 
@@ -52,7 +52,7 @@ public class PrimeNumber {
 
 			// if we reach this if statement then the entered number can be validated by
 			// applying other checks.
-			if (flag1 == false) {
+			if (!flag1) {
 
 				this.originalnum = Integer.parseInt(mynumber);
 
@@ -70,7 +70,7 @@ public class PrimeNumber {
 
 					// Creating an ArrayList of factors of the number
 
-					ArrayList<Integer> arr1 = new ArrayList<Integer>();
+					ArrayList<Integer> arr1 = new ArrayList<>();
 
 					int mod;
 
@@ -110,13 +110,11 @@ public class PrimeNumber {
 
 					}
 
-					if (flag2 == true)
-
+					if (flag2) {
 						System.out.println(this.originalnum + " " + "is not a prime no.");
-
-					else if (flag2 == false)
-
+					} else if (!flag2) {
 						System.out.println(this.originalnum + " " + "is a prime no.");
+					}
 
 				}
 
@@ -181,7 +179,7 @@ public class PrimeNumber {
 
 					return;  // This return will take the control out of if and loop and the method itself
 					            // as we don't want any statement in this method further once we are aware
-					            // that the number  is not Prime 
+					            // that the number  is not Prime
 
 				}
 
@@ -192,7 +190,7 @@ public class PrimeNumber {
 
 			System.out.println(number + " is Prime"); // If we reach this point then we know that either
 			                                                            // the divisor became equal to the number itself and loop condition was not met
-			                                                            // or at some point the square of any divisor became greater than 
+			                                                            // or at some point the square of any divisor became greater than
 			                                                            // the number itself and loop condition was not met.
 
 		}

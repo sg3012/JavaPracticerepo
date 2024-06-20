@@ -25,6 +25,6 @@ public class SalaryCalculator {
        }
 
        // Output
-       System.out.println("Employee's pay for the week is Rs. "+salary);        
+       System.out.println("Employee's pay for the week is Rs. "+salary);
     }
 }

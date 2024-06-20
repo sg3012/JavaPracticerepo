@@ -94,9 +94,9 @@ public class MergeAndSortArray {
 
         System.out.println("Sorted array after Merge(Ascending): ");
 
-        for (int j = 0; j < result.length; j++) {
+        for (int element : result) {
 
-            System.out.print(result[j] + " ");
+            System.out.print(element + " ");
 
         }
 

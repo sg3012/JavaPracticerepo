@@ -2,7 +2,7 @@ package src.practiceprograms;
 
 import java.util.Scanner;
 
-// WAP to find a minimum integer from a given list of integers. 
+// WAP to find a minimum integer from a given list of integers.
 //                1<= N<=10
 // Where, N = number of integers in the list.
 
@@ -16,11 +16,11 @@ public class MinimumInteger {
         min = list[0];
 
         // search array find for the minimum element
-        for (int j = 0; j < list.length; j++) {
+        for (int element : list) {
 
-            if (list[j] < min) {
+            if (element < min) {
 
-                min = list[j];
+                min = element;
 
             }
         }

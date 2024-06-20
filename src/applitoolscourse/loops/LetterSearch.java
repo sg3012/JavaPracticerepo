@@ -24,10 +24,10 @@ public class LetterSearch {
               }
           }
         if(letterFound){
-          System.out.println("The text contains letter 'A'");    
+          System.out.println("The text contains letter 'A'");
         }
         else{
             System.out.println("The text does not contain letter 'A'");
         }
-     }    
+     }
 }

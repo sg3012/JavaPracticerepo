@@ -1,7 +1,7 @@
 package src.practiceprograms;
 import java.util.Scanner;
 
-// Write a program to check whether a number is even/odd 
+// Write a program to check whether a number is even/odd
 // without using division(/) or Modulus(%) operator.
 
 
@@ -11,7 +11,7 @@ public class EvenOddWithoutOperators {
 
     public static boolean isEven(int number){
 
-        // Method 1. 
+        // Method 1.
         // - Take a boolean variable named "flag" with initial value of True or False.
         // - Switch it's values between True and False "number" times.
         // - If the number is even then final value of flag becomes the Same of initial value.
@@ -23,10 +23,10 @@ public class EvenOddWithoutOperators {
 
         number  = Math.abs(number); // Function abs() of Math class
                                     // will return absolute value of the number
-                                    // entered. If the number is -ve then 
+                                    // entered. If the number is -ve then
                                     // it will return the positive value
                                     // else it will return the number itself.
-        
+
         boolean flag = true;
 
         for(int i=1; i<=number; i++){
@@ -40,16 +40,16 @@ public class EvenOddWithoutOperators {
     public static int checkEvenOrOdd(int number){
 
         // Method 2. Using Bitwise AND Operator
-        // If Bitwise AND between 1 and the number 
+        // If Bitwise AND between 1 and the number
         // gives output as 0 then the number is even.
-        // If Bitwise AND between 1 and the number 
+        // If Bitwise AND between 1 and the number
         // gives output as 1 then the number is odd.
 
         return (number & 1);
     }
 
     public static void main(String args[]){
-        
+
         int num;
 
         System.out.println("Enter a number of your choice: ");
@@ -82,5 +82,5 @@ public class EvenOddWithoutOperators {
 
         scan.close();
     }
-    
+
 }

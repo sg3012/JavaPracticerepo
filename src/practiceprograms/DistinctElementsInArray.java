@@ -5,7 +5,7 @@ import java.util.Map;
 import java.util.Scanner;
 
 // Write a program to find distinct elements in an array.
-// Example if an array is like : 
+// Example if an array is like :
 // [1, 3, 3, 5, 6, 9, 6]
 // Distinct elements would be : [1,5,9]
 
@@ -32,7 +32,7 @@ public class DistinctElementsInArray {
 
         Integer count = null;
 
-        Map<Integer, Integer> mapOfSampleArray = new HashMap<Integer, Integer>();
+        Map<Integer, Integer> mapOfSampleArray = new HashMap<>();
 
         for (int number : sampleArray) {
 

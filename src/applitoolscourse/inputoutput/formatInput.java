@@ -2,7 +2,7 @@ package src.applitoolscourse.inputoutput;
 
 import java.util.Scanner;
 public class formatInput {
-    
+
     public static void main(String args[]){
         Scanner scan = new Scanner(System.in);
         // System.out.println("Enter String: ");
@@ -23,8 +23,8 @@ public class formatInput {
             System.out.printf("%03d%n",x);
         }
         System.out.println("================================");
-        
 
-        
+
+
     }
 }

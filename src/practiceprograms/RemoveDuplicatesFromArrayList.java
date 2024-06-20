@@ -9,52 +9,52 @@ import java.util.Set;
 // Integers
 
 public class RemoveDuplicatesFromArrayList {
-	
+
 	private static Scanner scan = new Scanner(System.in);
-	
+
 	public static ArrayList<Integer> removeDuplicates(ArrayList<Integer> arrayList) {
-		
+
 		// Using LinkedHashSet in this problem as it only allows unique elements and remove
 		// all duplicate occurrences
-		Set<Integer> set = new LinkedHashSet<Integer>();
-		
+		Set<Integer> set = new LinkedHashSet<>();
+
 		// addAll() method allows one collection to be inserted / appended to the other collection
 		set.addAll(arrayList);
-		
-		// clear() method removes all elements from a collection 
+
+		// clear() method removes all elements from a collection
 		arrayList.clear();
-		
+
 		arrayList.addAll(set);
-		
+
 		return arrayList;
-		
+
 	}
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		
-		int arrayListSize; 
-		
+
+		int arrayListSize;
+
 		System.out.println("Enter number of elements in the list: ");
-		
+
 		arrayListSize = scan.nextInt();
-		
-		ArrayList<Integer> myList = new ArrayList<Integer>();
-		
+
+		ArrayList<Integer> myList = new ArrayList<>();
+
 		System.out.println("Enter list elements:");
-		
+
 		for(int i = 0; i<arrayListSize; i++) {
 			myList.add(scan.nextInt());
 		}
-		
+
 		scan.close();
-		
+
 		System.out.println("List after removing duplicates:");
-		
+
 		myList = removeDuplicates(myList);
-		
-		for(int i = 0; i<myList.size(); i++) {
-		System.out.println(myList.get(i));
+
+		for (Integer element : myList) {
+		System.out.println(element);
 		}
 
 	}

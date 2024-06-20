@@ -5,12 +5,12 @@ import java.util.Scanner;
 
 // WAP in JAVA to sort all the even numbers in a list of integer elements
 // in ascending order
-// Examples: 
+// Examples:
 //Input: arr[] = {1, 2, 3, 5, 4, 7, 10}
 //Output: arr[] = {7, 5, 3, 1, 2, 4, 10}
 //
 //Input: arr[] = {0, 4, 5, 3, 7, 2, 1}
-//Output: arr[] = {7, 5, 3, 1, 0, 2, 4} 
+//Output: arr[] = {7, 5, 3, 1, 0, 2, 4}
 
 public class SortEvenElementsInAList {
 
@@ -50,7 +50,7 @@ public class SortEvenElementsInAList {
 				array[right] = temp;
 			}
 		}
-		
+
 		Arrays.sort(array,k,n);
 
 		return array;
@@ -77,11 +77,11 @@ public class SortEvenElementsInAList {
 			arr[i] = scan.nextInt();
 
 		}
-		
+
 		System.out.println("Array after sorting even elements:");
-		
+
 		arr = sortEvenElements(arr, size);
-		
+
 		System.out.println(Arrays.toString(arr));
 
 	}

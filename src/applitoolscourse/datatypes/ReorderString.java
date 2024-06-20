@@ -16,7 +16,7 @@ public class ReorderString {
                 i++;
             }
         }
-        
+
         System.out.println(modifiedString);
     }
 

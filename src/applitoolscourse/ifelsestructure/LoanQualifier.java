@@ -24,14 +24,14 @@ public class LoanQualifier {
         if (salary >= requiredSalary) {
             if (years >= requiredYearsEmployed) {
                 System.out.println("Congrats!, you qualify for the loan");
-            } 
+            }
             else {
                 System.out.println("Sorry!, you must have worked at your job atleast "
                         + requiredYearsEmployed + " Years");
             }
-        } 
+        }
         else {
-            System.out.println("Sorry!, you must earn atleast Rs." 
+            System.out.println("Sorry!, you must earn atleast Rs."
             + requiredSalary+" to qualify for the loan");
         }
     }

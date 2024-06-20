@@ -13,7 +13,7 @@ public class TasteTester {
         weddingCake.setPrice(2500);
         System.out.println("Wedding cake price is "+ weddingCake.getPrice());
         System.out.println("Wedding cake flavor is "+ weddingCake.getFlavor());
-        
+
     }
-    
+
 }

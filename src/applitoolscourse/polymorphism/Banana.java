@@ -14,5 +14,5 @@ public class Banana extends Fruit {
     public void makeJuice(){
         System.out.println("Banana Juice is made");
     }
-    
+
 }

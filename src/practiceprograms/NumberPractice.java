@@ -8,9 +8,9 @@ public class NumberPractice {
 //		BigDecimal n2 = new BigDec
 //		BigDecimal n3 = new BigDecimal(1.32);
 //		BigDecimal n4 = n2.add(n3);
-		
+
 		double number1 = 0.12;
-		
+
 		System.out.println("Big Decimal addition:"+number1);
 
 	}

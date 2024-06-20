@@ -46,7 +46,7 @@ public class MostRepeatedElementInArray {
                               // values.
 
         // 1. Create a Hashmap corresponding to the sample array above
-        Map<Integer, Integer> mapOfarray = new HashMap<Integer, Integer>();
+        Map<Integer, Integer> mapOfarray = new HashMap<>();
 
         // Loop through the array to Check whether or not
         // the number in the array above is alreay

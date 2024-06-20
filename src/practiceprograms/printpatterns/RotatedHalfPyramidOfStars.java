@@ -8,10 +8,10 @@ import java.util.Scanner;
 
 // Right angle triangle and half pyramid are the same.
 
-//         * 
-//       * * 
-//     * * * 
-//   * * * * 
+//         *
+//       * *
+//     * * *
+//   * * * *
 // * * * * *
 
 public class RotatedHalfPyramidOfStars {

@@ -6,10 +6,10 @@ import java.util.Scanner;
 // of number of rows entered from user input
 // on console using stars.
 
-//      *     
-//     * *    
-//    * * *   
-//   * * * *  
+//      *
+//     * *
+//    * * *
+//   * * * *
 //  * * * * *
 
 public class FullPyramidOfStars {
@@ -27,10 +27,10 @@ public class FullPyramidOfStars {
         for (int i = 1; i <= rows; i++) {
 
             // This loop is for printing spaces in each row.
-            for (columns = rows; columns >= i; columns--) { 
+            for (columns = rows; columns >= i; columns--) {
 
                 System.out.print(" ");
-                
+
             }
 
             // This loop is for priting elements.

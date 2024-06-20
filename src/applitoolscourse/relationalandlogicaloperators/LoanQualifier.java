@@ -29,7 +29,7 @@ public class LoanQualifier {
                 System.out.println("Congrats!, you qualify for the loan");
         }
         else {
-            System.out.println("Sorry!, you must earn atleast Rs." 
+            System.out.println("Sorry!, you must earn atleast Rs."
             + requiredSalary+" to qualify for the loan");
         }
     }

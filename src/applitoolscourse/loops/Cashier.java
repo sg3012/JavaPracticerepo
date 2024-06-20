@@ -11,7 +11,7 @@ public class Cashier {
            Scanner scan = new Scanner(System.in);
            int quantity = scan.nextInt();
            double total=0;
-           
+
         // Create loop to iterate over all items and accumulate the cost
         for(int i=0; i<quantity; i++){
          System.out.println("Enter the cost of the item:");

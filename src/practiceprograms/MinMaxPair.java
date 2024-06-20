@@ -49,29 +49,29 @@ public class MinMaxPair {
         // This is how we create object of a Static class contained in a
         // Non-static class.
         MinMaxPair.Pair pair = new MinMaxPair.Pair();
-        
+
         // Accessing the max variable of static class Pair through it's Object reference
         pair.max = arr[0];
 
         // Finding maximum element
-        for (int i = 0; i < arr.length; i++) {
+        for (int element : arr) {
 
-            if (arr[i] > pair.max) {
+            if (element > pair.max) {
 
-                pair.max = arr[i];
+                pair.max = element;
             }
         }
 
-        
+
         // Accessing the max variable of static class Pair through it's Object reference
         pair.min = arr[0];
 
         // Finding minimum element
-        for (int i = 0; i < arr.length; i++) {
+        for (int element : arr) {
 
-            if (arr[i] < pair.min) {
+            if (element < pair.min) {
 
-                pair.min = arr[i];
+                pair.min = element;
             }
         }
 

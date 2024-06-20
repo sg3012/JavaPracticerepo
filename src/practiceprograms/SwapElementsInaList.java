@@ -53,7 +53,7 @@ public class SwapElementsInaList {
             // because when element1 is found at a certain index
             // we start finding element2 after that index and if
             // the element1's index is the last one in the array
-            // then element2 will not be there as the whole array is already 
+            // then element2 will not be there as the whole array is already
             // traversed.
             if (element1 == listOfIntegers[i] && i < listOfIntegers.length) {
 
@@ -85,9 +85,9 @@ public class SwapElementsInaList {
 
             listOfIntegers[i] = temp;
 
-            for (int k = 0; k < listOfIntegers.length; k++) {
+            for (int listOfInteger : listOfIntegers) {
 
-                System.out.println(listOfIntegers[k]);
+                System.out.println(listOfInteger);
             }
         }
 

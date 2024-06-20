@@ -13,5 +13,5 @@ public class StringLengthPractice {
 
         System.out.println("Length of entered string: "+s.length());
     }
-    
+
 }

@@ -14,10 +14,10 @@ import java.util.Scanner;
 
 // Right angle triangle and half pyramid are the same.
 
-// Note : 
+// Note :
 // This program will print only uppercase Alphabets.
 
-// In this program all 26 alphabets could be printed in the pattern 
+// In this program all 26 alphabets could be printed in the pattern
 // as the pattern is starting with A.
 
 // If the pattern would have been starting with any alphabet

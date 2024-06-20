@@ -10,7 +10,7 @@ public class Greetings {
     public static void greetUser(String userName){
         System.out.println("Hello, "+userName);
     }
-    
+
     public static void main(String args[]){
         System.out.println("Enter your name:");
         Scanner scan = new Scanner(System.in);

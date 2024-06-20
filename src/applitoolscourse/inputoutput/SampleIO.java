@@ -12,5 +12,5 @@ public static void main(String args[]){
 
         System.out.println("Age: "+"["+i+"]");
         // System.out.println("Name:"+"["+name+"]");
-}   
+}
 }

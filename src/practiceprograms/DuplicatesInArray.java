@@ -7,7 +7,7 @@ import java.util.Scanner;
 import java.util.Set;
 
 // Write a program to find duplicates in an array.
-// Example if an array is like : 
+// Example if an array is like :
 // [1, 3, 3, 5, 6, 9, 6]
 // Duplicates would be : [3,6]
 // Occurences of 3 : 2
@@ -73,7 +73,7 @@ public class DuplicatesInArray {
 								// values.
 
 		// 1. Create a Hashmap corresponding to the sample array above
-		Map<Integer, Integer> mapOfSampleArray = new HashMap<Integer, Integer>();
+		Map<Integer, Integer> mapOfSampleArray = new HashMap<>();
 
 		// Loop through the array to Check whether or not
 		// the number in the sampleArray above is already
@@ -122,11 +122,11 @@ public class DuplicatesInArray {
 		System.out.println("==========Logic 3 ================");
 
 		// Method 3: Using a combination of Set and HashSet
-		Set<Integer> setOfSampleArray = new HashSet<Integer>();
+		Set<Integer> setOfSampleArray = new HashSet<>();
 
 		for (int element : sampleArray) {
 
-			if (setOfSampleArray.add(element) == false) {
+			if (!setOfSampleArray.add(element)) {
 
 				System.out.println(element);
 			}

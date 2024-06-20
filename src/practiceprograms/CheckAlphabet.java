@@ -3,7 +3,7 @@ import java.util.Scanner;
 
 // Write a program to check whether the input character is an alphabet.
 // For e.g. : A or a is an alphabet
-// but $,%,&,7,8 are not alphabets. 
+// but $,%,&,7,8 are not alphabets.
 
 
 public class CheckAlphabet {
@@ -29,7 +29,7 @@ public class CheckAlphabet {
 
         for(i = 65; i<=90 ; i++){
 
-            if((int)ch == i){
+            if(ch == i){
 
                 flag = true;
 
@@ -41,15 +41,15 @@ public class CheckAlphabet {
 
             for(j = 97; j<=122 ; j++){
 
-                if((int)ch == j){
-    
+                if(ch == j){
+
                     flag = true;
-    
+
                     break;
                 }
             }
         }
-       
+
 
         if(flag){
 

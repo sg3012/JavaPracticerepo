@@ -4,11 +4,11 @@ import java.util.Scanner;
 
 // WAP to check whether a given string is palindrome or not.
 
-// Palindrome : A string is called a Palindrome if the reverse is 
-// equal to the original string. 
+// Palindrome : A string is called a Palindrome if the reverse is
+// equal to the original string.
 
-// Palindrome strings : level, radar 
-// Non - Palindrome strings : Book, Footer 
+// Palindrome strings : level, radar
+// Non - Palindrome strings : Book, Footer
 
 public class PalindromeString {
     private static Scanner scan = new Scanner(System.in);
@@ -66,9 +66,9 @@ public class PalindromeString {
         System.out.println("Enter a string of your choice:");
 
         StringBuilder str2 = new StringBuilder(scan.nextLine());
-        
+
         StringBuilder reverseString = new StringBuilder(str2); // in reverseString
-        
+
         // we have stored str2 as
         // as if we store the reverse it
         // it will also reverse the contents of
@@ -83,7 +83,7 @@ public class PalindromeString {
         }
 
         else{
-            
+
         System.out.println("The string is not a palindrome");
 
         }

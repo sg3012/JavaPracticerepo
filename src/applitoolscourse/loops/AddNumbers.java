@@ -4,7 +4,7 @@ import java.util.Scanner;
  * DO WHILE LOOP
  * Write a program that allows a user to enter two numbers,
  * and the  n sums the 2 numbers. The user should be able to
- * repeat the action until they indicate they are done. 
+ * repeat the action until they indicate they are done.
  */
 
 public class AddNumbers {
@@ -27,7 +27,7 @@ public class AddNumbers {
          System.out.println("The sum is:"+sum);
 
          System.out.println("Do you want to continue? (true or false):");
-         
+
          again=scan.nextBoolean();
      }while(again);
 

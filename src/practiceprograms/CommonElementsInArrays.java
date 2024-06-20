@@ -50,26 +50,26 @@ public class CommonElementsInArrays {
         Integer count;
 
         // Create a HashMap of array elements
-        Map<Integer, Integer> mapOfSampleArray = new HashMap<Integer, Integer>();
+        Map<Integer, Integer> mapOfSampleArray = new HashMap<>();
 
-        for (int i = 0; i < arr1.length; i++) {
+        for (int element : arr1) {
 
-            for (int j = 0; j < arr2.length; j++) {
+            for (int element2 : arr2) {
 
-                if (arr1[i] == arr2[j]) {
+                if (element == element2) {
 
-                    count = mapOfSampleArray.get(arr1[i]);
+                    count = mapOfSampleArray.get(element);
 
                     if (count == null) {
 
-                        mapOfSampleArray.put(arr1[i], 1);
+                        mapOfSampleArray.put(element, 1);
                     }
 
                     else {
 
                         count += 1;
 
-                        mapOfSampleArray.put(arr1[i], count);
+                        mapOfSampleArray.put(element, count);
                     }
 
                 }

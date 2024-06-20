@@ -12,7 +12,7 @@ class Derived
 
 public class Test extends Derived
 {
-//	public int getDetails(String temp) // Compilation Error return type is incompatible 
+//	public int getDetails(String temp) // Compilation Error return type is incompatible
 //	                                   // with Derived.getDetails()
 //	                                   // when we are overriding a method
 //	                                   // the return type of both the methods should be same

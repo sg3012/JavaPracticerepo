@@ -19,7 +19,7 @@ public class FullPyramidOfNumbers {
         Scanner scan = new Scanner(System.in);
         System.out.print("Enter number of rows: ");
         rows = scan.nextInt();
-        
+
          // This loop is for tracking number of rows.
         for (int i = rows; i >= 1; i--) {
 
@@ -33,7 +33,7 @@ public class FullPyramidOfNumbers {
                 System.out.print(k - (k - 1));
                 System.out.print(" ");
             }
-            
+
             System.out.println();
         }
         scan.close();

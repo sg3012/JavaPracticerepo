@@ -5,17 +5,17 @@ import java.util.Calendar;
 import java.util.Date;
 import java.util.Locale;
 
-// The Calendar class is an abstract class that provides 
-// methods for converting between a specific instant in time and a set 
-// of calendar fields such as YEAR, MONTH, DAY_OF_MONTH, HOUR, and so on, 
-// and for manipulating the calendar fields, such as getting the date 
+// The Calendar class is an abstract class that provides
+// methods for converting between a specific instant in time and a set
+// of calendar fields such as YEAR, MONTH, DAY_OF_MONTH, HOUR, and so on,
+// and for manipulating the calendar fields, such as getting the date
 // of the next week.
 
-// You are given a date. You just need to write the method,getDay() , which 
-// returns the day on that date. To simplify your task, we have 
+// You are given a date. You just need to write the method,getDay() , which
+// returns the day on that date. To simplify your task, we have
 // provided a portion of the code in the editor.
 
-// Example : 
+// Example :
 // month = 8
 // day = 14
 // year = 2017
@@ -33,7 +33,7 @@ import java.util.Locale;
 // string: the day of the week in capital letters
 
 // Input Format
-// A single line of input containing the space separated month, 
+// A single line of input containing the space separated month,
 // day and year, respectively, in    format.
 
 // Constraints
@@ -68,10 +68,10 @@ class Result {
 
 public class FindDayOfTheWeek {
     public static void main(String[] args) throws IOException {
-        // BufferedReader bufferedReader = new 
+        // BufferedReader bufferedReader = new
         // BufferedReader(new InputStreamReader(System.in));
-        
-        // BufferedWriter bufferedWriter = new 
+
+        // BufferedWriter bufferedWriter = new
         // BufferedWriter(new FileWriter(System.getenv("OUTPUT_PATH")));
         // String[] firstMultipleInput = bufferedReader.readLine().replaceAll("\\s+$", "").split(" ");
 
@@ -118,7 +118,7 @@ public class FindDayOfTheWeek {
     //    Locale locale = new Locale("en", "US");
     //    System.out.println("Locale: "+ locale);
     // System.out.println(Calendar.SUNDAY);
-    
+
     Date date = calendar.getTime();
     System.out.println("DATE: "+date);
     System.out.println("Calendar year: "+calendar.get(Calendar.YEAR));
@@ -126,23 +126,23 @@ public class FindDayOfTheWeek {
     System.out.println("Calendar day of month: "+calendar.get(Calendar.DAY_OF_MONTH));
     System.out.println("Calendar day of week: "+Calendar.DAY_OF_WEEK);
     // System.out.println("Calendar day of the week in month: "+calendar.get(Calendar.DAY_OF_WEEK_IN_MONTH));
-    
+
     // calendar.clear();
     // System.out.println("Day of week: "+calendar.get(1));
     String day = calendar.getDisplayName(Calendar.DAY_OF_WEEK, Calendar.LONG_FORMAT, locale);
     System.out.println(day);
     //    Map<String, Integer> calMap = calendar.getDisplayNames(Calendar.SUNDAY, Calendar.SHORT, locale);
-    //    NavigableMap<String, Integer> Nav_Map = new TreeMap<String, Integer>(calMap); 
+    //    NavigableMap<String, Integer> Nav_Map = new TreeMap<String, Integer>(calMap);
     //    System.out.println(Nav_Map);
 
     //    int firstDay = calendar.getFirstDayOfWeek();
     //    System.out.println("FirstDay: "+firstDay);
     //    System.out.println("Day of month: "+ Calendar.DAY_OF_MONTH);
     //    calendar.clear();
-    
-       
+
+
        // String[] s = Locale.getISOCountries();
-        // Locale[] lo= Locale.getAvailableLocales(); 
+        // Locale[] lo= Locale.getAvailableLocales();
         // // System.out.println("Available countries: ");
         // System.out.println("Available locales: ");
         // for(int i=0; i<lo.length;i++){

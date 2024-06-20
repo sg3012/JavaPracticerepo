@@ -23,7 +23,7 @@ public class FactorialUsingRecursion {
 
         else {
 
-            return number * calculateFactorial(number-1); // this is    
+            return number * calculateFactorial(number-1); // this is
              // recursive call to the function calculateFactorial
             //  until the number becomes 1 or 0
             //  and 1 is returned by the if statement.

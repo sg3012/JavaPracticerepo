@@ -2,16 +2,16 @@ package src.applitoolscourse.arrays;
 import java.util.Scanner;
 /*
  * Create a program that allows a user to enter any
- * number of grades and provides them with their 
- * average score, as well as the highest and lowest scores 
+ * number of grades and provides them with their
+ * average score, as well as the highest and lowest scores
  */
 public class Grades {
-    
+
     private static int grades[];
     private static Scanner scan = new Scanner(System.in);
-  
+
     public static void main(String args[]){
-    
+
         System.out.println("How many grades would you like to enter?");
         grades = new int[scan.nextInt()];
 
@@ -49,9 +49,9 @@ public class Grades {
                highest = grade;
            }
         }
-    return highest;    
+    return highest;
     }
-    
+
     public static int getLowest(){
         int lowest = grades[0];
         // Algorithm to find the lowest element in an integer array
@@ -60,6 +60,6 @@ public class Grades {
                 lowest = grade;
             }
          }
-     return lowest;    
+     return lowest;
      }
 }
