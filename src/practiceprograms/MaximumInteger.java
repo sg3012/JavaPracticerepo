@@ -2,10 +2,17 @@ package src.practiceprograms;
 
 import java.util.Scanner;
 
+// WAP in JAVA to find maximum integer from an
+// array of integers of size 10. Although, the array
+// can have any number of elements
 public class MaximumInteger {
 
 	private static Scanner scan = new Scanner(System.in);
-
+	
+	// METHOD 1(BEGINNER): Assigning an array element
+	// to max and keep updating max if current
+	// element is greater than until we find the maximum
+	// element in the array | COMPLEXITY - O(n)
     public static int findMaximumInteger(int listSize, int list[]) {
         int max;
 

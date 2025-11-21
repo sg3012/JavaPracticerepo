@@ -69,8 +69,8 @@ public class PalindromeString {
 
         StringBuilder reverseString = new StringBuilder(str2); // in reverseString
 
-        // we have stored str2 as
-        // as if we store the reverse it
+        // we have stored original str2
+        // because if we store the reverse it
         // it will also reverse the contents of
         // original str2 object as a permanent change.
         reverseString = reverseString.reverse();

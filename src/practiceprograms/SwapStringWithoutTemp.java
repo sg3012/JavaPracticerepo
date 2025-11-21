@@ -8,7 +8,8 @@ public class SwapStringWithoutTemp {
 
 		// Method 1. Using "+" concatenation operator
 
-		String str1, str2;
+		String str1, str2; // str1  = java
+		                   // str2 = world
 
 		System.out.println("Enter String1:");
 
@@ -28,11 +29,11 @@ public class SwapStringWithoutTemp {
 
 		System.out.println("str2:" + str2);
 
-		str1 = str1 + str2;
+		str1 = str1 + str2; // str1 = javaworld
 
-		str2 = str1.substring(0, str1.length() - str2.length());
+		str2 = str1.substring(0, str1.length() - str2.length()); // str2 = java
 
-		str1 = str1.substring(str2.length());
+		str1 = str1.substring(str2.length()); // str1 = world
 
 		System.out.println("-------After Swapping------");
 

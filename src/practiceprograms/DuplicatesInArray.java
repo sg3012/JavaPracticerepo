@@ -69,8 +69,8 @@ public class DuplicatesInArray {
 								// Also, count has been declared as an Integer
 								// Wrapper class type as get() method of Map will
 								// return values type as Object and Integer
-								// Wrapper class can hold null as well as integer
-								// values.
+								// Wrapper class can hold primitive (int)
+		                        // as well as non-primitive (Integer) values.
 
 		// 1. Create a Hashmap corresponding to the sample array above
 		Map<Integer, Integer> mapOfSampleArray = new HashMap<>();
@@ -126,11 +126,26 @@ public class DuplicatesInArray {
 
 		for (int element : sampleArray) {
 
-			if (!setOfSampleArray.add(element)) {
+			if (!setOfSampleArray.add(element)) { // checking already
+				// present elements in the set and add only unique element(s)
+				// using add method. Here add method does 2 things:
+				// Add or not add the element(s) in the set
+				// returns true or false.
+				// So, we have control over the return type of add
+				// which we are negating. But we don't have control
+				// over add method's 2nd operation i.e. adding
+				// or not adding elements. So, add method
+				// will add or not add the element in the set
+				// irrespective of whether the if statement is finally becoming
+				// true or false
 
-				System.out.println(element);
+				System.out.println(element); // print only the duplicate element(s)
 			}
+
+			setOfSampleArray.add(element);
 		}
+
+		System.out.println("Set: "+setOfSampleArray);
 
 		scan.close();
 

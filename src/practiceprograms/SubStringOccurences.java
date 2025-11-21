@@ -5,7 +5,7 @@ import java.util.Scanner;
 // Write a program to check the number of times substring appears in a string.
 // For e.g. Consider the follwing string:
 // "abhhkihhcdkkdkk"
-// The occurence of substring "hh" is 2 times.
+// The occurrence of substring "hh" is 2 times.
 
 public class SubStringOccurences {
 
@@ -26,17 +26,17 @@ public class SubStringOccurences {
 
     System.out.println("Enter substring to search for:");
 
-    subString = scan.nextLine();
+    subString = scan.nextLine(); // aabbccdbbgbbhhh
 
     while (mainString.indexOf(subString) >= 0) { // to check whether substring occurence
       // there or not in the mainString.
       // indexOf() will return the index of a substring within the main string.
-
-      splitString = mainString.split(subString, 2); // this 2nd argument of split method
+    	System.out.println("-------while condition true ------------");
+      splitString = mainString.split(subString, 3); // this 2nd argument of split method
       // is used to define the limit for
       // number of occurences of substring
       // if it's value is +ve then
-      // it will split the string to Value -1
+      // it will split the string to Value limit-1
       // So, here it will split the mainString
       // only one time as the limit argument is
       // 2
@@ -46,6 +46,10 @@ public class SubStringOccurences {
       // and assign the remaining string which has not been traversed
       // to the main string, after the occurence of sub-string using split method above.
       for (int i = 0; i < splitString.length; i++) {
+    	  System.out.println("----------for condition true -----------");
+
+    	  System.out.println(splitString[i]);
+    	  //mainString = splitString[i + 1];
 
         // This condition will check if the next index in the split string array
         // is the one after the last index or not.
