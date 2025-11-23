@@ -5,7 +5,7 @@ public class RemoveDuplicatesFromString {
 	// i.e, it read whole String character by character
 	// and remove any duplicate occurrence of that character
 
-	// For e.g. The string "test automation in selenium test automation"
+	// For e.g. The string "test automation"
 	// Should result into "tes auomin"
 
 	public static void main(String[] args) {
