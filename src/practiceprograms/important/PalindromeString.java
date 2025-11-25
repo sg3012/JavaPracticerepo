@@ -12,7 +12,7 @@ import java.util.Scanner;
 
 public class PalindromeString {
 	private static Scanner scan = new Scanner(System.in);
-
+	
 	public static void main(String args[]) {
 //		// Method 1 - BRUTE FORCE
 //		// Use String class
