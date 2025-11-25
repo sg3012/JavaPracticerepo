@@ -76,7 +76,7 @@ public class PalindromeString {
         reverseString = reverseString.reverse();
 
         // Compare the reversed string with original string using equals()
-        if(String.valueOf(reverseString).equals(String.valueOf(str2))){
+        if(String.valueOf(reverseString).toLowerCase().equals(String.valueOf(str2).toLowerCase())){
 
         System.out.println("The string is a palindrome");
 
