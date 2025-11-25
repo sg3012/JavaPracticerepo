@@ -14,7 +14,7 @@ public class RemoveDuplicatesFromString {
 	public static void main(String args[]) {
 
 		System.out.println("Enter a string:");
-
+		// METHOD 1: USING INDEXOF METHOD | (TO BE TOLD IN INTERVIEW) 
 		String originalString = scan.nextLine(); // abacaadf
 
 		originalString = originalString.toLowerCase().trim();

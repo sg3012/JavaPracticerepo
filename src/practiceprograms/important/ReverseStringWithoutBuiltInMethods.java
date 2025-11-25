@@ -9,7 +9,9 @@ public class ReverseStringWithoutBuiltInMethods {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-
+		
+		// METHOD 1 : USING AN EMPTY STRING AND APPENDING ORIGINAL 
+		// STRING IN REVERSE ORDER TO IT | (TO BE TOLD IN INTERVIEW)
 		System.out.println("Enter a String of your choice:");
 
 		String originalString = scan.nextLine();

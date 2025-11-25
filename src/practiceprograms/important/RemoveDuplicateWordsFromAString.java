@@ -17,7 +17,8 @@ public class RemoveDuplicateWordsFromAString {
 
 	public static void main(String[] args) {
 		String originalString = "Selenium automation using automation library";
-
+		
+		// METHOD 1: BRUTE FORCE | (TO BE TOLD IN INTERVIEW)
 		// Split the input String into words by space
 		// and storing all words in a separate array
 

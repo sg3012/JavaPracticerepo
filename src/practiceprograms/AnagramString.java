@@ -17,7 +17,7 @@ public class AnagramString {
 	private static Scanner scan = new Scanner(System.in);
 
 	public static void main(String args[]) {
-
+		Integer.toString(0);
 		String str1, str2;
 
 		char ch1[], ch2[];

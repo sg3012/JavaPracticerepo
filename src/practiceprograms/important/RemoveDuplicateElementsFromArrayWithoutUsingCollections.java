@@ -13,7 +13,8 @@ public class RemoveDuplicateElementsFromArrayWithoutUsingCollections {
 		}
 
 		System.out.println();
-
+		
+		// METHOD 1 - BRUTE FORCE | (TO BE TOLD IN INTERVIEW)
 		if (n <= 1) {
 			System.out.println("Array length cannot be less than or equal to 1");
 		}

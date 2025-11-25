@@ -11,6 +11,8 @@ public class RemoveDuplicatesFromIntArray {
 
 	public static void main(String[] args) {
 		int arr[] = {1, 2, 2, 3, 4, 4, 5};
+		
+		// METHOD 1: USING ARRAYLIST AND MAP COMBINATION | (TO BE TOLD IN INTERVIEW)
 		Map<Integer,Integer> mapOfArray = new HashMap<>();
 		ArrayList<Integer> listOfEle = new ArrayList<>();
 		for(int e : arr) {

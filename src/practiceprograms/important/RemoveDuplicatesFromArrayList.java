@@ -14,7 +14,7 @@ public class RemoveDuplicatesFromArrayList {
 
 	private static Scanner scan = new Scanner(System.in);
 
-	// Method 1 using LinkedHashSet Data Structure
+	// Method 1 using LinkedHashSet Data Structure | BRUTE FORCE | (TO BE TOLD IN INTERVIEW)
 	public static ArrayList<Integer> removeDuplicates(ArrayList<Integer> arrayList) {
 
 		// Using LinkedHashSet in this problem as it only allows unique elements and remove
