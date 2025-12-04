@@ -2,7 +2,7 @@
 //all the elements to its right side. And the rightmost element is always a leader.
 //For example in the array {16, 17, 4, 3, 5, 2}, leaders are 17, 5 and 2.
 
-package src.practiceprograms;
+package src.practiceprograms.important;
 
 import java.util.*;
 

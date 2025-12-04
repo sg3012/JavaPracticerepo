@@ -20,8 +20,7 @@ import java.util.Map;
 public class AnagramString {
 	public static void main(String args[]) {
 		String str1 = "aacd"; 
-		String str2 = "daca";
-		
+		String str2 = "aacd";
 		
 		System.out.println("STRING 1: "+ str1);
 		System.out.println("STRING 2: "+ str2);
@@ -55,7 +54,7 @@ public class AnagramString {
 		}
 		
 		// After getting the value from the else block
-		// above (true). We will create a map, store the count
+		// above (true or false). We will create a map, store the count
 		// of each character from the first string and then subtracting the
 		// count of the same character from the second and storing
 		// it's value in the same map as a value of concerned key.
@@ -92,6 +91,7 @@ public class AnagramString {
 				}
 			}
 		}
+		
 		// After adding counts for each character
 		// in both the strings, if the count
 		// value (Here it is represented by e)
