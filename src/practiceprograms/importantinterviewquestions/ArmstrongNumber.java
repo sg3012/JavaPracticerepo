@@ -1,4 +1,4 @@
-package src.practiceprograms.important;
+package src.practiceprograms.importantinterviewquestions;
 
 import java.util.Scanner;
 

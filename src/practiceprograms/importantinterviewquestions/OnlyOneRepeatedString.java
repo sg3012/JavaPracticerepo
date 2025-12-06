@@ -1,4 +1,4 @@
-package src.practiceprograms.important;
+package src.practiceprograms.importantinterviewquestions;
 
 public class OnlyOneRepeatedString {
 //	Given a string like “This $ is an $ automation $ interview”. You have to 
@@ -10,7 +10,7 @@ public class OnlyOneRepeatedString {
 		String str = "This $ is an $ automation $ interview";
 		int firstDollarIndex = str.indexOf('$');
 		System.out.println("Original String: "+str);
-//		METHOD 1 | BEGINNER | USING INDEXOF AND SUBSTRING COMBINATION | 
+//		METHOD 1 | BEGINNER | USING INDEXOF, SUBSTRING AND SPLIT COMBINATION | 
 //		TIME COMPLEXITY = o(n^2) | EASY TO UNDERSTAND | (TO BE TOLD IN INTERVIEW)
 		// Find the index of first dollar
 
