@@ -14,7 +14,7 @@ public class RemoveDuplicatesFromIntArray {
 		
 		// METHOD 1: USING ARRAYLIST AND MAP COMBINATION | (TO BE TOLD IN INTERVIEW)
 		Map<Integer,Integer> mapOfArray = new HashMap<>();
-		ArrayList<Integer> listOfEle = new ArrayList<>();
+		ArrayList<Integer> listOfEle = new ArrayList<Integer>();
 		for(int e : arr) {
 			 if(!mapOfArray.containsKey(e)){     // if the map doesn't contain the key
 			  mapOfArray.put(e, 1);		        // represented by element in the array then only

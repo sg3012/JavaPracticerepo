@@ -9,9 +9,9 @@ public class RotateArrayElements {
 	// and the output array should be {4,0,2,1,5,0,1,0}
 
 	public static void main(String[] args) {
-		int arr[] = { 1, 0, 4, 0, 2, 1, 5, 0 };
+		int arr[] = {1,0,4,0,2,1,5,0}; //{15,25,19,18,21,35,12,14,10,6} 
 
-		int n = 2; // Number of elements to be shifted from the left most side
+		int n = 2; // Number of elements to be shifted from the left most side to the right
 
 //		// METHOD 1 | BEGINNER | BRUTE FORCE - USING ARRAY LIST AND SIMPLE LOOPS COMBINATION 
 //		// | EASY TO UNDERSTAND | (TO BE TOLD IN INTERVIEW)
@@ -21,10 +21,8 @@ public class RotateArrayElements {
 //		for (int i = 0; i < n; i++) {
 //			list.add(arr[i]);
 //		}
-//		// Print the list
-//		System.out.println(list);
 //		
-//		// Count variable is to control how many will be shifted in the original
+//		// Count variable is to control how many elements will be shifted in the original
 //		// array to different positions. Initially it will be equal to
 //		// the number of elements to be displaced. So, that
 //		// we can shift non-displacing element(s) just after the last
@@ -36,7 +34,7 @@ public class RotateArrayElements {
 //			// to first length-n positions. Now, we will copy remaining elements
 //			// (actually to be shifted) to the right of already copied elements
 //			// using the loop in if condition below.
-//			if (i >= arr.length - n) {
+//			if (i == arr.length - n) {
 //				count = 0;
 //				for (int j = i; j < arr.length; j++) {
 //					arr[j] = list.get(count);
@@ -47,8 +45,8 @@ public class RotateArrayElements {
 //			// positions please shift and copy them.
 //			else {
 //				arr[i] = arr[count];
+//				count++;
 //			}
-//			count++;
 //		}
 //		
 //		// Print the resultant array with shifted elements
@@ -77,7 +75,7 @@ public class RotateArrayElements {
 		int temp[] = new int[n];
 		
 		// Putting number of elements to be displaced from
-		// the left towards the end in the temp array
+		// the left towards the end, in the temp array
 		for(int i = 0; i<n; i++) {
 			temp[i] = arr[i];
 		}
@@ -91,9 +89,9 @@ public class RotateArrayElements {
 		}
 		
 		// Adding the elements to be shifted to the right
-		// towards the right after the position where
+		// after the position where
 		// last non-shifting element was placed in the original
-		// array i.e., arr.length - n + i
+		// array i.e., arr.length - n + i, in the original array
 		for(int i = 0; i<n; i++) {
 			arr[arr.length - n + i] = temp[i];
 		}

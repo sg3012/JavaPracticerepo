@@ -65,7 +65,7 @@ public class HighestSalaryForEmployee {
 		// if 1st employee object's location in the list
 		// is Mumbai then add that name in the final employee 
 		// names list. The location is case-insensitive match
-		if(empList.get(0).location.equalsIgnoreCase("Mumbai")) {
+		if((empList.get(0).location.equalsIgnoreCase("Mumbai")) && (empList.get(0).age>=20 || empList.get(0).age<=25)) {
 			empNamesWithMaxSalList.add(empList.get(0).name);
 		}
 		
@@ -79,7 +79,7 @@ public class HighestSalaryForEmployee {
 			if (e.salary > highestSalary) {
 				highestSalary = e.salary;
 				empNamesWithMaxSalList.clear();
-				if(e.location.equalsIgnoreCase("Mumbai")) {
+				if((e.location.equalsIgnoreCase("Mumbai")) && (empList.get(0).age>=20 || empList.get(0).age<=25)) {
 					empNamesWithMaxSalList.add(e.name);
 				}
 			}
@@ -91,7 +91,7 @@ public class HighestSalaryForEmployee {
 			// e3 have same highest salary.
 			// The output on the console should be e2 and e3 both.
 			else if(e.salary == highestSalary) {
-				if(e.location.equalsIgnoreCase("Mumbai")) {
+				if((e.location.equalsIgnoreCase("Mumbai")) && (empList.get(0).age>=20 || empList.get(0).age<=25)) {
 					empNamesWithMaxSalList.add(e.name);
 				}
 			}
@@ -99,11 +99,10 @@ public class HighestSalaryForEmployee {
 		System.out.println("Highest salary: " + highestSalary);
 		
 		if(empNamesWithMaxSalList.isEmpty()) {
-			System.out.println("No employee(s) with the highest salary in Mumbai!");
+			System.out.println("No employee(s) with the highest salary in Mumbai! and age between 20 and 25");
 		}
 		else {
-			System.out.println("Employee(s) with the highest salary in Mumbai: "+empNamesWithMaxSalList);
+			System.out.println("Employee(s) with the highest salary in Mumbai and age between 20 and 25: "+empNamesWithMaxSalList);
 		}
 	}
-
 }
