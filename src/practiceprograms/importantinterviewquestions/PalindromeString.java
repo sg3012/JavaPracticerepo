@@ -65,7 +65,8 @@ public class PalindromeString {
 
         System.out.println("Enter a string of your choice:");
 
-        StringBuilder str2 = new StringBuilder(scan.nextLine());
+        StringBuilder str2 = new StringBuilder(scan.nextLine()); // we can also enter
+        // str2 in stringbuilder constructor call directly
 
         StringBuilder reverseString = new StringBuilder(str2); // in reverseString
 
