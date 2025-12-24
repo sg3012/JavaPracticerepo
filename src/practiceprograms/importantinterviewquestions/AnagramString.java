@@ -19,8 +19,8 @@ import java.util.Map;
 
 public class AnagramString {
 	public static void main(String args[]) {
-		String str1 = "aacd"; 
-		String str2 = "aacd";
+		String str1 = "abcd"; 
+		String str2 = "dabc";
 		
 		System.out.println("STRING 1: "+ str1);
 		System.out.println("STRING 2: "+ str2);

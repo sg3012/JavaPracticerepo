@@ -74,13 +74,12 @@ public class RemoveDuplicateWordsFromAString {
 			resultantString = resultantString+word.getKey()+" ";
 		}
 
-		// Convert the resultant Stringbuilder to String and remove any trailing spaces
-		// by trimming it and store it in a final string
-		String finalString = resultantString.trim();
+		// remove any trailing spaces by trimming the resultantString and store it in a final string
+		resultantString = resultantString.trim();
 
 		// Print the final string with unique characters
 		System.out.println("Original string: " + originalString.toLowerCase());
-		System.out.println("Final string: " + finalString);
+		System.out.println("Final string: " + resultantString);
 
 	}
 
