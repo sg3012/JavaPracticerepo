@@ -7,7 +7,7 @@ public class GetCountOfEachCharInAString {
 	
 	// Given a string we have to find the
 	// count of each character in that string
-	// including ones.
+	// including repeating ones.
 
 	public static void main(String[] args) {
 		
