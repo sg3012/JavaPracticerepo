@@ -53,12 +53,12 @@ public class AnagramString {
 			}
 		}
 		
-		// After getting the value from the else block
+		// After getting the value from the if-else block
 		// above (true or false). We will create a map, store the count
 		// of each character from the first string and then subtracting the
 		// count of the same character from the second and storing
 		// it's value in the same map as a value of concerned key.
-		// Here, key will be each character either of the strings.
+		// Here, key will be each character from either of the strings.
 		Map<Character,Integer> countsOfChar = new HashMap<Character,Integer>();
 		if(flag) {
 			// Storing the count of each character

@@ -15,7 +15,7 @@ public class ReverseSpecificSubStringInAString {
 
 	public static void main(String[] args) {
 		String str1 = "Today is my interview";
-		// The sub-string which we have to only reverse
+		// The sub-string which we need to reverse
 		String subStrToReverse = "my";
 		// The occurrence of the sub-string
 		// from where we have to split the main string
