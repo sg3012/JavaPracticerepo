@@ -27,7 +27,7 @@ public class PrintoneToHundred {
 //		return numbers;
 //	}
 
-	// METHOD 1 | INTERMEDIATE | USING RECURSSION AND THE METHOD
+	// METHOD 2 | INTERMEDIATE | USING RECURSSION AND THE METHOD
 	// DISPLAYING THE LIST OF NUMBERS IN THE METHOD ITSELF | EASY TO UNDERSTAND |
 	// TO BE TOLD IN INTERVIEW
 	public static void printNumbers(int num) {
