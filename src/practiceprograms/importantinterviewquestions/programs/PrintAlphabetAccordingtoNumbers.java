@@ -1,4 +1,4 @@
-package src.practiceprograms.importantinterviewquestions;
+package src.practiceprograms.importantinterviewquestions.programs;
 
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;

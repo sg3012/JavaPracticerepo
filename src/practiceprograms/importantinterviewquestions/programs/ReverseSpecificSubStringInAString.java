@@ -1,4 +1,4 @@
-package src.practiceprograms.importantinterviewquestions;
+package src.practiceprograms.importantinterviewquestions.programs;
 
 public class ReverseSpecificSubStringInAString {
 

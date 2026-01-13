@@ -1,4 +1,4 @@
-package src.practiceprograms.importantinterviewquestions;
+package src.practiceprograms.importantinterviewquestions.programs;
 import java.util.Scanner;
 
 // WAP in JAVA to Reverse a String without using any built-in
