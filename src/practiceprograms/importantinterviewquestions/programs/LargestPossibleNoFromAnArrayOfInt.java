@@ -12,7 +12,11 @@ public class LargestPossibleNoFromAnArrayOfInt {
 	
 	// For e.g: Considering an array {3,30,32,7,319},
 	// the largest possible number that could be formed
-	// from this array would be 733231930
+	// from this array would be 733231930. If we observe
+	// the number 319 in the original array remains 319,
+	// the number 32 remains 32 in the final number formed.
+	// This means the order of digits at each index in the
+	// original array remains same.
 
 	public static void main(String[] args) {
 		

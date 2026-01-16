@@ -7,7 +7,7 @@ public class ReverseOnlyIndividualWordsOfString {
 	// was at index 1 then it should remain at index one but
 	// in a reversed state. For e.g. if the original string is
 	// "Today interview" then the output should be "yadot weivretni"
-	// and not "weivretni yadot". Meaning, the only a word at
+	// and not "weivretni yadot". Meaning, the only each word at
 	// a respective index is reversed.
 
 	public static void main(String[] args) {
