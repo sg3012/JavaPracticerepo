@@ -1,4 +1,4 @@
-package src.practiceprograms;
+package src.practiceprograms.importantinterviewquestions.programs;
 import java.util.*;
 
 public class StringAlphabetCount {
