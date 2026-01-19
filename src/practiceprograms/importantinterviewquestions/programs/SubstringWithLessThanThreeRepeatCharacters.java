@@ -122,14 +122,22 @@ public class SubstringWithLessThanThreeRepeatCharacters {
 		// [INTERMEDIATE] | USING SIMPLE LOOPS, VARIABLE SIZE SLIDING WINDOW APPROACH | 
 		// EASY TO UNDERSTAND | TIME COMPLEXITY - O(n) | TO BE TOLD IN INTERVIEW
 		
-		// NOTE: The approach below is called VARIABLE SIZE SLIDING WINDOW approach
+		// NOTE: 
+		// 1. The approach below is called VARIABLE SIZE SLIDING WINDOW approach
 		// because we use 2 variables/pointers to traverse through the main string
 		// and keeping track of the length and number of consecutive
 		// characters in such a way that visually it looks like a window.
 		// This window will keep changing it's location and size using
 		// these 2 variables. That is why the name variable size sliding window.
 		
-		int maxLength = 1; // variable to track the maximum length sub-string. Initially 0
+		// The approach can also be called 2 pointer approach as it uses
+		// 2 variables or pointers to track the characters in the string
+		// from both the left and right ends.
+		
+		int maxLength = 1; // variable to track the maximum length sub-string. Initially 1
+		                   // because we already know that the least length
+		                   // sub-string that can be formed from the main string 
+		                   // will be of length 1.
 		
 		int left = 0; // variable to track the left index of the sliding window over
 		              // the main string
@@ -146,7 +154,11 @@ public class SubstringWithLessThanThreeRepeatCharacters {
 		// in the main string so that we can find all
 		// sub-strings lengths, starting and ending indices from this point 
 		// until the end of main string.
-		for (int right = 1; right < str.length(); right++) {
+		for (int right = 1; right < str.length(); right++) { // the right variable inside the loop
+			// here will serve 2 purpose:
+			                                                 // - track the character to the right of the current left index.
+			                                                 // - track the size of the sliding window over characters.
+			
 			char currentChar = str.charAt(right); // current character at the index "right"
 			
 			char previousChar = str.charAt(right - 1); // previous character at the index "right-1"

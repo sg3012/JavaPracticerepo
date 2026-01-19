@@ -73,7 +73,8 @@ public class PalindromeString {
         // we have stored original str2
         // because if we store the reverse it
         // it will also reverse the contents of
-        // original str2 object as a permanent change.
+        // original str2 object as a permanent change, which we
+        // don't want to do.
         reverseString = reverseString.reverse();
 
         // Compare the reversed string with original string using equals()
