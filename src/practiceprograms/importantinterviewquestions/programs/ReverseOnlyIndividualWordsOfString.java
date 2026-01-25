@@ -11,7 +11,7 @@ public class ReverseOnlyIndividualWordsOfString {
 	// a respective index is reversed.
 
 	public static void main(String[] args) {
-		String originalStr = "Shubham Gupta";
+		String originalStr = "Today is my Selenium interview";
 
 //		// [BEGINNER] | TIME COMPLEXITY - O(n^2)
 //		// Split main string to get individual words
@@ -38,8 +38,10 @@ public class ReverseOnlyIndividualWordsOfString {
 //			// append it to the reverse string variable
 //			// and keep appending a space at the right of 
 //			// whatever words are reversed till now in 
-//			// the outerloop only.
+//			// the outer-loop only.
+//			if(i!=arrOfWords.length-1) {
 //			reverse = reverse + " ";
+//			}
 //		}
 //		System.out.print(reverse);
 
@@ -54,7 +56,9 @@ public class ReverseOnlyIndividualWordsOfString {
 			for (int j = temp.length() - 1; j >= 0; j--) {
 				reverse.append(temp.charAt(j));
 			}
+			if(i!=arrOfWords.length-1) {
 			reverse.append(" ");
+			}
 		}
 		System.out.print(reverse);
 	}
